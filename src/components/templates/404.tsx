@@ -1,8 +1,10 @@
 import React from 'react'
+import Base from './Base'
 
-const NotFound = () => {
+const NotFound = ({ pageContext }) => {
   return (
-    <p>404 Not Found</p>
+    <Base pageContext={pageContext} title="404 Not Found">
+    </Base>
   )
 }
 

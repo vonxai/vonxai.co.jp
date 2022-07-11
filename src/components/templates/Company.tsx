@@ -2,9 +2,9 @@ import React from 'react'
 import { CompanyInformation } from '../organisms/CompanyInformation'
 import Base from './Base'
 
-const Company = () => {
+const Company = ({ pageContext }) => {
   return (
-    <Base title="会社概要">
+    <Base pageContext={pageContext} title="会社概要">
       <CompanyInformation />
     </Base>
   )

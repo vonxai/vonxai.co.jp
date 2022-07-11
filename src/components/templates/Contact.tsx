@@ -4,7 +4,7 @@ import Base from './Base'
 
 const Contact = ({ pageContext }) => {
   return (
-    <Base title="お問い合わせ">
+    <Base pageContext={pageContext} title="お問い合わせ">
       <p className="mt-6 mb-4 text-2xl md:text-lg">
         お問い合わせは以下にメールをお願い致します。
       </p>

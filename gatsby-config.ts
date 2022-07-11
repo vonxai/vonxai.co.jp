@@ -12,7 +12,6 @@ const config: GatsbyConfig = {
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
   // Learn more at: https://gatsby.dev/graphql-typegen
-  graphqlTypegen: true,
   plugins: [
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
@@ -50,7 +49,7 @@ const config: GatsbyConfig = {
           }
         }`,
         resolveSiteUrl: () => siteMetadata.siteUrl,
-        resolvePages: ({ site, allSitePage }) => {
+        resolvePages: ({ allSitePage }) => {
           return allSitePage.nodes.map((node) => node)
         },
         filterPages: (page, excludedRoute, { minimatch }) => {

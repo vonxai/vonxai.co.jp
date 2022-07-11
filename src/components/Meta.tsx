@@ -2,10 +2,10 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import { useLocation } from '@reach/router'
 
-const Meta = ({ siteMetadata }) => {
+const Meta = ({ meta }) => {
   const { pathname } = useLocation()
 
-  const { title, description, siteUrl } = siteMetadata
+  const { title, description, siteUrl } = meta.site.siteMetadata
 
   const seo = {
     title: title,
@@ -16,8 +16,8 @@ const Meta = ({ siteMetadata }) => {
 
   const attributes = {
     lang: 'ja',
-    class: '',
   }
+
 
   return (
     <Helmet title={seo.title} htmlAttributes={attributes}>
@@ -31,6 +31,7 @@ const Meta = ({ siteMetadata }) => {
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
+      <link rel="icon" type="image/png" href={`/assets/images/icon.png`} sizes="16x16" />
     </Helmet>
   )
 }

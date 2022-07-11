@@ -13,6 +13,9 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
     }
   `)
 
+  console.log('--------------------------')
+  console.log(site.data.site)
+
   createPage({
     path: `/`,
     component: path.resolve('./src/components/templates/Home.tsx'),
