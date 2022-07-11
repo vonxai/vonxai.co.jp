@@ -2,13 +2,13 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import { useLocation } from '@reach/router'
 
-const Meta = ({ meta }) => {
+const Meta = ({ subtitle = null, meta }) => {
   const { pathname } = useLocation()
 
   const { title, description, siteUrl } = meta.site.siteMetadata
 
   const seo = {
-    title: title,
+    title: subtitle ? `${subtitle} - ${title}` : title,
     description: description,
     image: `${siteUrl}/assets/images/header01.webp`,
     url: `${siteUrl}${pathname}`,
