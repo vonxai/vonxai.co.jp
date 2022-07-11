@@ -7,7 +7,7 @@ import { Header } from '../organisms/Header'
 const Base = ({ pageContext, title, children }) => {
   return (
     <main className="container mx-auto max-w-full m-0 bg-white">
-      <Meta meta={pageContext} />
+      { (Object.keys(pageContext).length > 0) ? <Meta meta={pageContext} /> : <></> }
       <Header />
       <article className="mx-auto max-w-2xl my-10 px-2">
         <h2 className="text-4xl font-bold md:text-xl">{title}</h2>
