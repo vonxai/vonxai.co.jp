@@ -8,7 +8,7 @@ import { TopHeader } from '../organisms/TopHeader'
 
 const Home = ({ pageContext }) => {
   return (
-    <main className="container mx-auto max-w-full m-0 bg-black">
+    <main className="container mx-auto max-w-full min-h-screen m-0 bg-black">
       <Meta meta={pageContext} />
       <TopHeader />
       <section className="py-5 mx-auto w-1/2 max-w-2xl">
