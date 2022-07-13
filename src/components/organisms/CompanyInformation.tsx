@@ -24,7 +24,7 @@ export const CompanyInformation = () => {
           最高経営責任者
         </dt>
         <dd className="flex-1">
-          夏目佳明
+          夏目 佳明
         </dd>
       </div>
       <div className="flex items-center h-16 border-solid	border-gray-200	border-b">
