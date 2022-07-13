@@ -15,7 +15,7 @@ const Home = ({ pageContext }) => {
         <Title />
         <Links />
       </section>
-      <Footer className="py-5 text-center text-gray-300" />
+      <Footer className="pt-5 pb-5 md:pt-2 text-center text-gray-300" />
     </main>
   )
 }
