@@ -11,7 +11,7 @@ const Home = ({ pageContext }) => {
     <main className="container mx-auto max-w-full min-h-screen m-0 bg-black">
       <Meta meta={pageContext} />
       <TopHeader />
-      <div className="relative top-m10vh">
+      <div className="relative top-m7vh">
         <section className="py-5 mx-auto max-w-2xl w-42rem px-2">
           <Title />
           <Links />

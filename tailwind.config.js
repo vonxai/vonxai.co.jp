@@ -18,7 +18,7 @@ module.exports = {
       spacing: {
         '2em': '2em',
         '10vw': '10vw',
-        'm10vh': '-10vh',
+        'm7vh': '-7vh',
       },
       height: {
         'inherit': 'inherit',
