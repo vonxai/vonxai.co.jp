@@ -29,6 +29,9 @@ module.exports = {
       flex: {
         '2': '2 1 0%',
       },
+      invert: {
+        50: '.5',
+      },
       keyframes: {
         fade: {
           '0%': {
