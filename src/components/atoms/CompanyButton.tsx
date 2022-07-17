@@ -7,8 +7,8 @@ export const CompanyButton = (props) => {
 
   return (
     <a href="/company" className={`${className} ${color} inline-flex items-center`}>
-      <OfficeBuildingIcon className="h-5 w-5 mx-1 sm:h-7 sm:w-7" />
-      <p className={`text-xl whitespace-nowrap ${iconMode ? "sm:hidden" : ""}`}>企業情報</p>
+      <OfficeBuildingIcon className="h-5 w-5 mx-1 lg:h-7 lg:w-7" />
+      <p className={`text-xl whitespace-nowrap ${iconMode ? "lg:hidden" : ""}`}>企業情報</p>
     </a>
   )
 }

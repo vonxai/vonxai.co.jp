@@ -23,6 +23,8 @@ module.exports = {
       height: {
         'inherit': 'inherit',
         '75vh': '75vh',
+        '3rem': '3rem',
+        '2rem': '2rem',
       },
       flex: {
         '2': '2 1 0%',

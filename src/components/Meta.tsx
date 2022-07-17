@@ -31,7 +31,7 @@ const Meta = ({ subtitle = null, meta }) => {
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
-      <link rel="icon" type="image/png" href={`/assets/images/icon.png`} sizes="16x16" />
+      <link rel="icon" type="image/png" href={`/assets/images/logo.svg`} sizes="16x16" />
     </Helmet>
   )
 }
