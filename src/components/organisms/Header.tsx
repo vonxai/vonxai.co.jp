@@ -7,7 +7,7 @@ export const Header = () => {
     <header>
       <div className="mx-10vw py-2 px-6 sm:px-2 flex md:mx-0">
         <h1 className="grow text-6xl font-bold lg:text-4xl">
-          <a href="/" className="hover:text-gray-500 hover:invert-50"><img src={`/assets/images/logo.svg`} className="inline h-3rem lg:h-2rem mr-1" />vonxai inc.</a>
+          <a href="/" className="hover:text-gray-500 hover:invert-50"><img src={`/assets/images/logo.svg`} className="inline h-26rem lg:h-17rem mr-2 lg:mr-1" />vonxai inc.</a>
         </h1>
         <div className="flex items-center justify-center">
           <CompanyButton className="mr-2 text-black" darkMode={false} iconMode={true} />

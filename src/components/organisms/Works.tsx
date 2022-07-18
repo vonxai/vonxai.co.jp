@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Works = () => {
   return (
-    <dl className="flex flex-col my-8 text-2xl font-light md:text-lg">
+    <dl className="flex flex-col my-8 text-2xl font-light lg:text-lg lg:my-2">
       <div className="flex items-center border-solid border-gray-200 border-b py-4">
         <dt className="flex-1">
           開発支援
