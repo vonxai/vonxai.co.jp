@@ -9,7 +9,7 @@ const Contact = ({ pageContext }) => {
         お問い合わせは以下にメールをお願い致します。
       </p>
       <ContactButton />
-      <p className="my-6 text-2xl md:text-lg">
+      <div className="my-6 text-2xl md:text-lg">
         上記リンクが開かない場合はお手数ですが contact@vonxai.co.jp 宛に
         <ul className="list-disc ml-6">
           <li>企業/団体名</li>
@@ -18,7 +18,7 @@ const Contact = ({ pageContext }) => {
           <li>内容</li>
         </ul>
         を添えてメールをお送りください。
-      </p>
+      </div>
     </Base>
   )
 }
