@@ -21,10 +21,10 @@ export const Works = () => {
       </div>
       <div className="flex items-center border-solid border-gray-200 border-b py-4">
         <dt className="flex-1">
-          ウェブサービス・AR・VR開発事業
+          ウェブサービス・VR開発事業
         </dt>
         <dd className="flex-2  ml-6">
-          ウェブサービス・AR・VR関連の開発。
+          ウェブサービス・VR関連の開発。
         </dd>
       </div>
       <div className="flex items-center border-solid border-gray-200 border-b py-4">
