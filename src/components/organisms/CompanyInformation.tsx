@@ -33,7 +33,7 @@ export const CompanyInformation = () => {
           設立
         </dt>
         <dd className="flex-2 ml-6">
-          2022年07月01日
+          2022年07月18日
         </dd>
       </div>
       <div className="flex items-center border-solid border-gray-200 border-b py-4">
