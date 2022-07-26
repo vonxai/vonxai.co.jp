@@ -6,7 +6,7 @@ const NotFound = ({ pageContext }) => {
   return (
     <Base pageContext={pageContext} title="404 Not Found">
       <Helmet title="404 - vonxai inc.">
-        <meta name="description" content="ソフトウェア開発からDX(デジタルトランスフォーメーション)支援、プロダクトマネジメントまで幅広く柔軟な対応が可能です。お気軽にお問い合わせください。" />
+        <meta name="description" content="vonxai inc.のコーポレートサイトです" />
         <link rel="icon" type="image/png" href={`/assets/images/logo.svg`} sizes="16x16" />
       </Helmet>
     </Base>

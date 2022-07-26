@@ -10,7 +10,7 @@ const Meta = ({ subtitle = null, meta }) => {
   const seo = {
     title: subtitle ? `${subtitle} - ${title}` : title,
     description: description,
-    image: `${siteUrl}/assets/images/header01.webp`,
+    image: `${siteUrl}/assets/images/share-image.webp`,
     url: `${siteUrl}${pathname}`,
   }
 
