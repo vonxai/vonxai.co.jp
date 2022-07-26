@@ -22,7 +22,7 @@ export const CompanyInformation = () => {
       </div>
       <div className="flex items-center border-solid border-gray-200 border-b py-4">
         <dt className="flex-1">
-          最高経営責任者
+          代表
         </dt>
         <dd className="flex-2 ml-6">
           夏目 佳明
