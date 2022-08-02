@@ -7,16 +7,22 @@ export const Works = () => {
         <dt className="flex-1">
           開発支援
         </dt>
-        <dd className="flex-2 ml-6">
+        <dd className="flex-2 ml-6 break-words">
           事業のIT化、DX(デジタルトランスフォーメーション)化、サービス開発の支援。
         </dd>
       </div>
       <div className="flex items-center border-solid border-gray-200 border-b py-4">
         <dt className="flex-1">
-          テクニカルコンサルタント
+          技術支援
         </dt>
-        <dd className="flex-2 ml-6">
-          サービスやアプリケーションのパフォーマンス改善やソフトウェア開発での課題の発見・解決に関するコンサルタント、AWSやGCPを利用したクラウドネイティブなアーキテクチャ設計の支援。WordPressやShopify、EC-CUBEなどでのオウンドメディア・オウンドマーケットの導入支援、個人情報管理やクレジットカードの非保持化におけるセキュリティコンサルタント等。
+        <dd className="flex-2 ml-6 break-words">
+          サービスやアプリケーションのパフォーマンス改善やソフトウェア開発での課題の発見・解決に関するコンサルティング。
+          <br />
+          AWS や GCP を利用したクラウドネイティブなアーキテクチャ設計の支援。
+          <br />
+          WordPress や Shopify 、 EC-CUBE などでのオウンドメディア・オウンドマーケットの導入支援。
+          <br />
+          個人情報管理やクレジットカードの非保持化におけるセキュリティコンサルティング等。
         </dd>
       </div>
       <div className="flex items-center border-solid border-gray-200 border-b py-4">
