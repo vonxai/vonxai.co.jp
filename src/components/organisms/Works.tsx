@@ -43,10 +43,10 @@ export const Works = () => {
       </div>
       <div className="flex items-center border-solid border-gray-200 border-b py-4">
         <dt className="flex-1">
-          e-sports支援事業
+          e-sports・ストリーマー支援事業
         </dt>
         <dd className="flex-2 ml-6">
-          e-sports文化の発展に関わる業務。
+          e-sports・ストリーマー文化の発展に関わる業務。
         </dd>
       </div>
     </dl>
