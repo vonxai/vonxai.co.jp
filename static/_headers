@@ -2,5 +2,5 @@
 /*
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
-  Content-Security-Policy: default-src 'self'; img-src *; script-src 'unsafe-inline' https://www.googletagmanager.com: style-src: https://tagmanager.google.com https://fonts.googleapis.com;
+  Content-Security-Policy: default-src 'self'; img-src *; script-src 'unsafe-inline' https://www.googletagmanager.com; style-src https://tagmanager.google.com https://fonts.googleapis.com;
 
