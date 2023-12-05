@@ -13,7 +13,15 @@ const Home = ({ pageContext }) => {
       <div className="relative top-m10vh">
         <section>
           <Title />
-          <CompanyList />
+          <section className="z-10 bg-black">
+            <div className="py-5 px-2 mx-auto max-w-4xl w-42rem text-white text-center">
+              <h2 className="text-4xl md:text-2xl font-bold">取引先企業</h2>
+              <p className="my-3 text-xl md:text-md">
+                スタートアップから大企業まで、様々な企業様を支えています。
+              </p>
+              <CompanyList darkMode={true} />
+            </div>
+          </section>
         </section>
         <Footer className="pt-5 md:pt-2 text-center text-gray-300" />
       </div>
