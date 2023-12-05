@@ -4,7 +4,7 @@ const siteMetadata = {
   title: 'vonxai inc.',
   description:
     'vonxai inc.のコーポレートサイトです',
-  siteUrl: 'https://vonxai.co.jp/',
+  siteUrl: 'https://www.vonxai.co.jp/',
 }
 
 const config: GatsbyConfig = {
