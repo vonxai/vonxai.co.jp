@@ -1,5 +1,4 @@
 import React from 'react'
-import { ContactButton } from '../atoms/ContactButton'
 import Base from './Base'
 
 const Contact = ({ pageContext }) => {
@@ -8,7 +7,6 @@ const Contact = ({ pageContext }) => {
       <p className="mt-6 mb-4 text-2xl md:text-lg">
         お問い合わせは以下にメールをお願い致します。
       </p>
-      <ContactButton />
       <div className="my-6 text-2xl md:text-lg">
         上記リンクが開かない場合はお手数ですが contact@vonxai.co.jp 宛に
         <ul className="list-disc ml-6">

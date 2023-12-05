@@ -16,29 +16,29 @@ export const TopHeader = () => {
           }
         `}
       </style>
-      <ol className='absolute h-inherit top-0 right-0 bottom-0 left-0'>
-        <li className='top-animation absolute h-full top-0 right-0 bottom-0 left-0'>
+      <ul className='h-inherit'>
+        <li className='top-animation h-full w-full absolute top-0'>
           <img
             src={`/assets/images/header01.webp`}
             alt="header image"
             className='object-cover w-full h-inherit opacity-0 animate-fade-and-up'
           />
         </li>
-        <li className='top-animation absolute h-full top-0 right-0 bottom-0 left-0'>
+        <li className='top-animation h-full w-full absolute top-0'>
           <img
             src={`/assets/images/header02.webp`}
             alt="header image"
             className='object-cover w-full h-inherit opacity-0 animate-fade-and-up'
           />
         </li>
-        <li className='top-animation absolute h-full top-0 right-0 bottom-0 left-0'>
+        <li className='top-animation h-full w-full absolute top-0'>
           <img
             src={`/assets/images/header03.webp`}
             alt="header image"
             className='object-cover w-full h-inherit opacity-0 animate-fade-and-up'
           />
         </li>
-      </ol>
+      </ul>
     </header>
   )
 }

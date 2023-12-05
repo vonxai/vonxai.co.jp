@@ -1,5 +1,4 @@
 import React from 'react'
-import { FloatingContactButton } from '../atoms/FloatingContactButton'
 import Meta from '../Meta'
 import { Footer } from '../organisms/Footer'
 import { Header } from '../organisms/Header'
@@ -13,7 +12,6 @@ const Base = ({ pageContext, title, children }) => {
         <h2 className="text-4xl font-bold lg:text-xl">{title}</h2>
         {children}
       </article>
-      <FloatingContactButton />
       <Footer className="py-5 text-center text-gray-500" />
     </main>
   )
