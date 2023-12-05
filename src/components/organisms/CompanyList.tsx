@@ -3,7 +3,7 @@ import React from "react";
 export const CompanyList = () => {
   return (
     <section className="z-10 bg-black">
-      <div className="py-5 px-2 mx-auto max-w-2xl w-42rem">
+      <div className="py-5 px-2 mx-auto max-w-4xl w-42rem">
         <h2 className="text-white text-4xl md:text-2xl font-bold">
           取引先企業
         </h2>

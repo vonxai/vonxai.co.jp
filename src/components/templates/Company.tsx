@@ -2,12 +2,13 @@ import React from "react";
 import { CompanyInformation } from "../organisms/CompanyInformation";
 import Base from "./Base";
 
-const Company = ({ pageContext }) => {
+const Company = (data) => {
   return (
-    <Base pageContext={pageContext} title="会社概要">
+    <Base {...data}>
       <CompanyInformation />
     </Base>
   );
 };
 
 export default Company;
+export { Head } from "../Head";

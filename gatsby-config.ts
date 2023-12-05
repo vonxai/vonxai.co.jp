@@ -13,7 +13,6 @@ const config: GatsbyConfig = {
   // Learn more at: https://gatsby.dev/graphql-typegen
   plugins: [
     "gatsby-plugin-postcss",
-    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {

@@ -1,5 +1,5 @@
 import React from "react";
-import { GlobeAltIcon } from "@heroicons/react/outline";
+import { GlobeAltIcon } from "@heroicons/react/24/outline";
 
 export const BusinessButton = (props) => {
   const { className, darkMode, iconMode } = props;
@@ -10,9 +10,10 @@ export const BusinessButton = (props) => {
     <a
       href="/business"
       className={`${className} ${color} inline-flex items-center`}
+      title="事業情報"
     >
       <GlobeAltIcon className="h-5 w-5 mx-1 lg:h-7 lg:w-7" />
-      <p className={`text-xl whitespace-nowrap ${iconMode ? "lg:hidden" : ""}`}>
+      <p className={`text-xl whitespace-nowrap ${iconMode ? "md:hidden" : ""}`}>
         事業情報
       </p>
     </a>

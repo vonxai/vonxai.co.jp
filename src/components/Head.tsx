@@ -1,25 +1,20 @@
 import React from "react";
-import { Helmet } from "react-helmet";
-import { useLocation } from "@reach/router";
 
-const Meta = ({ subtitle = null, meta }) => {
-  const { pathname } = useLocation();
-
-  const { title, description, siteUrl } = meta.site.siteMetadata;
+export const Head = ({ location, params, data, pageContext }) => {
+  const { title, subtitle, description, siteUrl } =
+    pageContext.site.siteMetadata;
 
   const seo = {
-    title: subtitle ? `${subtitle} - ${title}` : title,
+    title: subtitle !== null ? `${subtitle} - ${title}` : title,
     description: description,
     image: `${siteUrl}/assets/images/share-image.webp`,
-    url: `${siteUrl}${pathname}`,
-  };
-
-  const attributes = {
-    lang: "ja",
+    url: `${siteUrl}${location.pathname}`,
   };
 
   return (
-    <Helmet title={seo.title} htmlAttributes={attributes}>
+    <>
+      <html lang="ja" />
+      <title>{seo.title}</title>
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
       <meta property="og:url" content={seo.url} />
@@ -36,8 +31,6 @@ const Meta = ({ subtitle = null, meta }) => {
         href={`/assets/images/logo.svg`}
         sizes="16x16"
       />
-    </Helmet>
+    </>
   );
 };
-
-export default Meta;
