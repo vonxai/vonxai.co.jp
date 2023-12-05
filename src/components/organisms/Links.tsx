@@ -1,6 +1,6 @@
-import React from 'react'
-import { BusinessButton } from '../atoms/BusinessButton'
-import { CompanyButton } from '../atoms/CompanyButton'
+import React from "react";
+import { BusinessButton } from "../atoms/BusinessButton";
+import { CompanyButton } from "../atoms/CompanyButton";
 
 export const Links = () => {
   return (
@@ -8,5 +8,5 @@ export const Links = () => {
       <CompanyButton className="mr-2" darkMode={true} iconMode={false} />
       <BusinessButton className="mr-2" darkMode={true} iconMode={false} />
     </section>
-  )
-}
+  );
+};

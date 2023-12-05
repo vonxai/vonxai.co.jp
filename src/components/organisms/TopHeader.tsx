@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
 export const TopHeader = () => {
   return (
-    <header className='h-75vh'>
+    <header className="h-75vh">
       <style>
         {`
           .top-animation:nth-of-type(1) img {
@@ -16,29 +16,29 @@ export const TopHeader = () => {
           }
         `}
       </style>
-      <ul className='h-inherit'>
-        <li className='top-animation h-full w-full absolute top-0'>
+      <ul className="h-inherit">
+        <li className="top-animation h-full w-full absolute top-0">
           <img
             src={`/assets/images/header01.webp`}
             alt="header image"
-            className='object-cover w-full h-inherit opacity-0 animate-fade-and-up'
+            className="object-cover w-full h-inherit opacity-0 animate-fade-and-up"
           />
         </li>
-        <li className='top-animation h-full w-full absolute top-0'>
+        <li className="top-animation h-full w-full absolute top-0">
           <img
             src={`/assets/images/header02.webp`}
             alt="header image"
-            className='object-cover w-full h-inherit opacity-0 animate-fade-and-up'
+            className="object-cover w-full h-inherit opacity-0 animate-fade-and-up"
           />
         </li>
-        <li className='top-animation h-full w-full absolute top-0'>
+        <li className="top-animation h-full w-full absolute top-0">
           <img
             src={`/assets/images/header03.webp`}
             alt="header image"
-            className='object-cover w-full h-inherit opacity-0 animate-fade-and-up'
+            className="object-cover w-full h-inherit opacity-0 animate-fade-and-up"
           />
         </li>
       </ul>
     </header>
-  )
-}
+  );
+};

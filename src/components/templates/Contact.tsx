@@ -1,5 +1,5 @@
-import React from 'react'
-import Base from './Base'
+import React from "react";
+import Base from "./Base";
 
 const Contact = ({ pageContext }) => {
   return (
@@ -18,7 +18,7 @@ const Contact = ({ pageContext }) => {
         を添えてメールをお送りください。
       </div>
     </Base>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

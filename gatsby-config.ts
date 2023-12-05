@@ -1,11 +1,10 @@
-import type { GatsbyConfig } from "gatsby"
+import type { GatsbyConfig } from "gatsby";
 
 const siteMetadata = {
-  title: 'vonxai inc.',
-  description:
-    'vonxai inc.のコーポレートサイトです',
-  siteUrl: 'https://www.vonxai.co.jp/',
-}
+  title: "vonxai inc.",
+  description: "vonxai inc.のコーポレートサイトです",
+  siteUrl: "https://www.vonxai.co.jp/",
+};
 
 const config: GatsbyConfig = {
   siteMetadata,
@@ -13,28 +12,28 @@ const config: GatsbyConfig = {
   // If you use VSCode you can also use the GraphQL plugin
   // Learn more at: https://gatsby.dev/graphql-typegen
   plugins: [
-    'gatsby-plugin-postcss',
-    'gatsby-plugin-react-helmet',
+    "gatsby-plugin-postcss",
+    "gatsby-plugin-react-helmet",
     {
-      resolve: 'gatsby-plugin-google-tagmanager',
+      resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        id: 'GTM-W27JGZF',
+        id: "GTM-W27JGZF",
         includeInDevelopment: false,
-        defaultDataLayer: { platform: 'gatsby' },
-        routeChangeEventName: 'gatsby-route-change',
+        defaultDataLayer: { platform: "gatsby" },
+        routeChangeEventName: "gatsby-route-change",
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: 'assets',
+        name: "assets",
         path: `${__dirname}/static/assets/`,
       },
     },
     {
-      resolve: 'gatsby-plugin-sitemap',
+      resolve: "gatsby-plugin-sitemap",
       options: {
-        output: '/sitemap',
+        output: "/sitemap",
         excludes: [],
         query: `{
           site {
@@ -50,20 +49,20 @@ const config: GatsbyConfig = {
         }`,
         resolveSiteUrl: () => siteMetadata.siteUrl,
         resolvePages: ({ allSitePage }) => {
-          return allSitePage.nodes.map((node) => node)
+          return allSitePage.nodes.map((node) => node);
         },
         filterPages: (page, excludedRoute, { minimatch }) => {
-          return minimatch(page.path, excludedRoute)
+          return minimatch(page.path, excludedRoute);
         },
         serialize: ({ path, lastmod }) => {
           return {
             url: path,
             lastmod: lastmod,
-          }
+          };
         },
       },
     },
   ],
-}
+};
 
-export default config
+export default config;

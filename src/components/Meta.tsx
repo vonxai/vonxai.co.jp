@@ -1,23 +1,22 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import { useLocation } from '@reach/router'
+import React from "react";
+import { Helmet } from "react-helmet";
+import { useLocation } from "@reach/router";
 
 const Meta = ({ subtitle = null, meta }) => {
-  const { pathname } = useLocation()
+  const { pathname } = useLocation();
 
-  const { title, description, siteUrl } = meta.site.siteMetadata
+  const { title, description, siteUrl } = meta.site.siteMetadata;
 
   const seo = {
     title: subtitle ? `${subtitle} - ${title}` : title,
     description: description,
     image: `${siteUrl}/assets/images/share-image.webp`,
     url: `${siteUrl}${pathname}`,
-  }
+  };
 
   const attributes = {
-    lang: 'ja',
-  }
-
+    lang: "ja",
+  };
 
   return (
     <Helmet title={seo.title} htmlAttributes={attributes}>
@@ -31,9 +30,14 @@ const Meta = ({ subtitle = null, meta }) => {
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
-      <link rel="icon" type="image/png" href={`/assets/images/logo.svg`} sizes="16x16" />
+      <link
+        rel="icon"
+        type="image/png"
+        href={`/assets/images/logo.svg`}
+        sizes="16x16"
+      />
     </Helmet>
-  )
-}
+  );
+};
 
-export default Meta
+export default Meta;

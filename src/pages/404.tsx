@@ -1,1 +1,1 @@
-export { default } from '../components/templates/404'
+export { default } from "../components/templates/404";
