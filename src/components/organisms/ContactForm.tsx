@@ -16,7 +16,7 @@ export const ContactForm = (props) => {
             id="name"
             placeholder="凡才 松"
             required={true}
-            className="appearance-none border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline"
+            className="appearance-none border rounded w-full py-2 px-3 text-gray-700 font-normal focus:outline-none focus:shadow-outline"
           />
         </label>
       </div>
@@ -29,7 +29,7 @@ export const ContactForm = (props) => {
             id="email"
             placeholder="vonxai@example.com"
             required={true}
-            className="appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 focus:outline-none focus:shadow-outline"
+            className="appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 font-normal focus:outline-none focus:shadow-outline"
           />
         </label>
       </div>
@@ -42,7 +42,7 @@ export const ContactForm = (props) => {
             placeholder=""
             required={true}
             rows={5}
-            className="appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 focus:outline-none focus:shadow-outline"
+            className="appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 font-normal focus:outline-none focus:shadow-outline"
           />
         </label>
       </div>
