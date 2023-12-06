@@ -16,6 +16,11 @@ export const Header = () => {
             className="grow text-3xl font-bold md:text-2xl sm:text-xl hover:text-gray-500 hover:invert-50"
             title="vonxai inc."
           >
+            <img
+              src={`/assets/images/logo.svg`}
+              className="inline h-20px w-20px mr-2 lg:mr-1"
+              alt="vonxai logo"
+            />
             vonxai inc.
           </a>
         </div>

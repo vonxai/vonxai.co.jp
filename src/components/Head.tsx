@@ -25,6 +25,7 @@ export const Head = ({ location, params, data, pageContext }) => {
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
+      <link rel="preload" as="image" href={`/assets/images/logo.svg`} />
       <link
         rel="icon"
         type="image/png"

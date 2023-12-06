@@ -19,6 +19,7 @@ module.exports = {
         "2em": "2em",
         "10vw": "10vw",
         m10vh: "-10vh",
+        "20px": "20px",
       },
       height: {
         inherit: "inherit",
