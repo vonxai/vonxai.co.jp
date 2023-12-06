@@ -12,7 +12,7 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
       }
     }
   `);
-  const siteMetadata = site.data.site.siteMetadata;
+  const meta = site.data.site.siteMetadata;
 
   createPage({
     path: `/`,
@@ -28,7 +28,7 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
     context: {
       site: {
         siteMetadata: {
-          siteMetadata,
+          ...meta,
           ...{ subtitle: "会社概要" },
         },
       },
@@ -41,7 +41,7 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
     context: {
       site: {
         siteMetadata: {
-          siteMetadata,
+          ...meta,
           ...{ subtitle: "事業概要" },
         },
       },
@@ -54,7 +54,7 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
     context: {
       site: {
         siteMetadata: {
-          siteMetadata,
+          ...meta,
           ...{ subtitle: "お問い合わせ" },
         },
       },

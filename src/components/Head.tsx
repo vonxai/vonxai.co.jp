@@ -5,7 +5,7 @@ export const Head = ({ location, params, data, pageContext }) => {
     pageContext.site.siteMetadata;
 
   const seo = {
-    title: subtitle !== null ? `${subtitle} - ${title}` : title,
+    title: subtitle !== undefined ? `${subtitle} - ${title}` : title,
     description: description,
     image: `${siteUrl}/assets/images/share-image.webp`,
     url: `${siteUrl}${location.pathname}`,
