@@ -10,10 +10,10 @@ const Home = ({ pageContext }) => {
     <main className="container mx-auto max-w-full min-h-screen m-0 bg-black">
       <Header />
       <TopHeader />
-      <div className="relative top-m25vh">
+      <div className="relative top-m10vh">
         <section>
           <Title />
-          <section className="z-10 bg-black">
+          <section className="">
             <div className="py-5 px-2 mx-auto max-w-4xl w-42rem text-white text-center">
               <h2 className="text-4xl md:text-2xl font-bold">取引先企業</h2>
               <p className="my-3 text-xl md:text-md">
@@ -23,7 +23,7 @@ const Home = ({ pageContext }) => {
             </div>
           </section>
         </section>
-        <Footer className="pt-5 md:pt-2 text-center text-gray-300" />
+        <Footer className="bg-black max-h-60 pt-5 md:pt-2 text-center text-gray-300" />
       </div>
     </main>
   );

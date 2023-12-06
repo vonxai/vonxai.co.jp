@@ -18,13 +18,14 @@ module.exports = {
       spacing: {
         "2em": "2em",
         "10vw": "10vw",
-        m25vh: "-25vh",
+        m10vh: "-10vh",
       },
       height: {
         inherit: "inherit",
         "75vh": "75vh",
         "26rem": "2.6rem",
         "17rem": "1.7rem",
+        120: "120%",
       },
       flex: {
         2: "2 1 0%",
