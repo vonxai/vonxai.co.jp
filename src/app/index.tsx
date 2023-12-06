@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 export const App = ({ children }) => {
-  return <>{children}</>
-}
+  return <>{children}</>;
+};
 
-export const wrapPageElement = ({ element }) => (<App>{element}</App>)
+export const wrapPageElement = ({ element }) => <App>{element}</App>;

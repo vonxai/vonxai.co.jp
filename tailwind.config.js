@@ -6,60 +6,57 @@ module.exports = {
   ],
   theme: {
     screens: {
-      sm: { 'max': '480px' },
-      md: { 'max': '768px' },
-      lg: { 'max': '976px' },
-      xl: { 'max': '1440px' },
+      sm: { max: "480px" },
+      md: { max: "768px" },
+      lg: { max: "976px" },
+      xl: { max: "1440px" },
     },
     fontFamily: {
-      sans: ['Noto Sans JP', 'sans-serif'],
+      sans: ["Noto Sans JP", "sans-serif"],
     },
     extend: {
       spacing: {
-        '2em': '2em',
-        '10vw': '10vw',
-        'm7vh': '-7vh',
+        "2em": "2em",
+        "10vw": "10vw",
+        m10vh: "-10vh",
+        "20px": "20px",
       },
       height: {
-        'inherit': 'inherit',
-        '75vh': '75vh',
-        '26rem': '2.6rem',
-        '17rem': '1.7rem',
+        inherit: "inherit",
+        "75vh": "75vh",
+        "26rem": "2.6rem",
+        "17rem": "1.7rem",
+        120: "120%",
       },
       flex: {
-        '2': '2 1 0%',
+        2: "2 1 0%",
       },
       invert: {
-        50: '.5',
+        50: ".5",
       },
       keyframes: {
-        fade: {
-          '0%': {
-            opacity: '0',
+        "fade-and-up": {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(0px)",
           },
-          '8%, 42%': {
-            opacity: '1',
+          "50%": {
+            opacity: "1",
           },
-          '50%, 100%': {
-            opacity: '0',
+          "60%": {
+            opacity: "0",
+            "z-index": 10,
           },
-        },
-        up: {
-          '0%': {
-            transform: 'translateY(0px)',
-          },
-          '90%': {
-            transform: 'translateY(-100px)',
-          },
-          '91%, 100%': {
-            transform: 'translateY(0px)',
+          "100%": {
+            opacity: "0",
+            transform: "translateY(-50px)",
           },
         },
       },
       animation: {
-        'fade-and-up': 'fade 14s ease-in-out infinite, up 14s ease-in-out infinite',
-      }
-    }
+        "fade-and-up": "fade-and-up 15s ease-in-out 0s infinite",
+      },
+    },
   },
   plugins: [],
-}
+};

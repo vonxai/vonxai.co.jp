@@ -1,11 +1,22 @@
-import React from 'react'
-import { MailIcon } from '@heroicons/react/outline'
+import React from "react";
+import { EnvelopeIcon } from "@heroicons/react/24/outline";
 
-export const ContactButton = () => {
+export const ContactButton = (props) => {
+  const { className, darkMode, iconMode } = props;
+  const color = darkMode
+    ? "text-white hover:text-gray-300"
+    : "text-black hover:text-gray-500";
+
   return (
-    <a href="mailto:contact@vonxai.co.jp?subject=問い合わせ&amp;body=企業/団体名：%0D%0A氏名：%0D%0A件名：%0D%0A内容：" className="text-black hover:text-gray-500 text-xl inline-flex items-center">
-      <MailIcon className="h-5 w-5 mx-1" />
-      <p className="">お問い合わせ</p>
+    <a
+      href="/contact"
+      className={`${className} ${color} inline-flex items-center`}
+      title="お問い合わせ"
+    >
+      <EnvelopeIcon className="h-5 w-5 mx-1 lg:h-7 lg:w-7" />
+      <p className={`text-xl whitespace-nowrap ${iconMode ? "md:hidden" : ""}`}>
+        お問い合わせ
+      </p>
     </a>
-  )
-}
+  );
+};

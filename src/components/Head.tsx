@@ -1,26 +1,20 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import { useLocation } from '@reach/router'
+import React from "react";
 
-const Meta = ({ subtitle = null, meta }) => {
-  const { pathname } = useLocation()
-
-  const { title, description, siteUrl } = meta.site.siteMetadata
+export const Head = ({ location, params, data, pageContext }) => {
+  const { title, subtitle, description, siteUrl } =
+    pageContext.site.siteMetadata;
 
   const seo = {
-    title: subtitle ? `${subtitle} - ${title}` : title,
+    title: subtitle !== undefined ? `${subtitle} - ${title}` : title,
     description: description,
     image: `${siteUrl}/assets/images/share-image.webp`,
-    url: `${siteUrl}${pathname}`,
-  }
-
-  const attributes = {
-    lang: 'ja',
-  }
-
+    url: `${siteUrl}${location.pathname}`,
+  };
 
   return (
-    <Helmet title={seo.title} htmlAttributes={attributes}>
+    <>
+      <html lang="ja" />
+      <title>{seo.title}</title>
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
       <meta property="og:url" content={seo.url} />
@@ -31,9 +25,13 @@ const Meta = ({ subtitle = null, meta }) => {
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
-      <link rel="icon" type="image/png" href={`/assets/images/logo.svg`} sizes="16x16" />
-    </Helmet>
-  )
-}
-
-export default Meta
+      <link rel="preload" as="image" href={`/assets/images/logo.svg`} />
+      <link
+        rel="icon"
+        type="image/png"
+        href={`/assets/images/logo.svg`}
+        sizes="16x16"
+      />
+    </>
+  );
+};
