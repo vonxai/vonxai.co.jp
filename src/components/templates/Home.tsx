@@ -10,7 +10,7 @@ const Home = ({ pageContext }) => {
     <main className="container mx-auto max-w-full min-h-screen m-0 bg-black">
       <Header />
       <TopHeader />
-      <div className="relative top-m10vh">
+      <div className="relative top-m25vh">
         <section>
           <Title />
           <section className="z-10 bg-black">

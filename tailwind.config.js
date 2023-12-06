@@ -18,7 +18,7 @@ module.exports = {
       spacing: {
         "2em": "2em",
         "10vw": "10vw",
-        m10vh: "-10vh",
+        m25vh: "-25vh",
       },
       height: {
         inherit: "inherit",
@@ -33,32 +33,26 @@ module.exports = {
         50: ".5",
       },
       keyframes: {
-        fade: {
+        "fade-and-up": {
           "0%": {
             opacity: "0",
+            transform: "translateY(0px)",
           },
-          "8%, 42%": {
+          "50%": {
             opacity: "1",
           },
-          "50%, 100%": {
+          "60%": {
             opacity: "0",
+            "z-index": 10,
           },
-        },
-        up: {
-          "0%": {
-            transform: "translateY(0px)",
-          },
-          "90%": {
-            transform: "translateY(-100px)",
-          },
-          "91%, 100%": {
-            transform: "translateY(0px)",
+          "100%": {
+            opacity: "0",
+            transform: "translateY(-50px)",
           },
         },
       },
       animation: {
-        "fade-and-up":
-          "fade 14s ease-in-out infinite, up 14s ease-in-out infinite",
+        "fade-and-up": "fade-and-up 15s ease-in-out 0s infinite",
       },
     },
   },

@@ -9,10 +9,10 @@ export const TopHeader = () => {
             animation-delay: 0s;
           }
           .top-animation:nth-of-type(2) img {
-            animation-delay: 4s;
+            animation-delay: 5s;
           }
           .top-animation:nth-of-type(3) img {
-            animation-delay: 8s;
+            animation-delay: 10s;
           }
         `}
       </style>
