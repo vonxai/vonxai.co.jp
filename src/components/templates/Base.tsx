@@ -8,9 +8,11 @@ const Base = ({ pageContext, children }) => {
       <Header />
       <article className="mx-auto max-w-6xl my-10 px-2 lg:my-4">
         <h1 className="text-4xl font-bold lg:text-xl">
-          {pageContext.site.siteMetadata.subtitle !== undefined
-            ? pageContext.site.siteMetadata.subtitle
-            : pageContext.site.siteMetadata.title}
+          {pageContext?.site?.siteMetadata?.subtitle !== undefined ? (
+            pageContext.site.siteMetadata.subtitle
+          ) : (
+            <></>
+          )}
         </h1>
         {children}
       </article>
