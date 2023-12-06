@@ -46,19 +46,21 @@ export const ContactForm = (props) => {
           />
         </label>
       </div>
-      <button
-        type="submit"
-        className="bg-black hover:bg-gray-700 text-white text-xl font-bold py-2 px-16 rounded-md focus:outline-none focus:shadow-outline"
-      >
-        送信
-      </button>
-      {submitted ? (
-        <p className="inline-block align-baseline font-bold text-lg text-gray-700 ml-5">
-          お問い合わせありがとうございました。
-        </p>
-      ) : (
-        ""
-      )}
+      <div className="flex items-center gap-5 sm:gap-2">
+        <button
+          type="submit"
+          className="bg-black hover:bg-gray-700 text-white whitespace-nowrap text-xl font-bold py-2 px-16 rounded-md focus:outline-none focus:shadow-outline"
+        >
+          送信
+        </button>
+        {submitted ? (
+          <p className="inline-block align-baseline font-bold text-lg text-gray-700">
+            お問い合わせありがとうございました。
+          </p>
+        ) : (
+          ""
+        )}
+      </div>
     </form>
   );
 };
