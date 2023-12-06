@@ -1,8 +1,12 @@
 import React from "react";
 
 export const ContactForm = (props) => {
+  const { location } = props;
+  const params = new URLSearchParams(location.search);
+  const submitted = params.get("submit") === "true";
+
   return (
-    <form className="" action="/">
+    <form className="" method="POST" data-static-form-name="contact">
       <div className="mb-4">
         <label className="block text-gray-700 text-lg font-bold mb-2">
           氏名
@@ -48,6 +52,13 @@ export const ContactForm = (props) => {
       >
         送信
       </button>
+      {submitted ? (
+        <p className="inline-block align-baseline font-bold text-lg text-gray-700 ml-5">
+          お問い合わせありがとうございました。
+        </p>
+      ) : (
+        ""
+      )}
     </form>
   );
 };

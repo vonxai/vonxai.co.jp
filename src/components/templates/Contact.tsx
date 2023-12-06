@@ -3,7 +3,7 @@ import Base from "./Base";
 import { ContactForm } from "../organisms/ContactForm";
 import { CompanyList } from "../organisms/CompanyList";
 
-const Contact = ({ pageContext }) => {
+const Contact = ({ location, pageContext }) => {
   return (
     <Base pageContext={pageContext}>
       <div className="grid grid-cols-2 md:grid-cols-1 gap-8">
@@ -32,7 +32,7 @@ const Contact = ({ pageContext }) => {
             </li>
           </ul>
         </div>
-        <ContactForm />
+        <ContactForm location={location} />
       </div>
       <section className="mt-12">
         <h3 className="text-2xl md:text-xl text-center">
