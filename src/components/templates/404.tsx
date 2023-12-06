@@ -3,8 +3,8 @@ import Base from "./Base";
 
 const NotFound = ({ pageContext }) => {
   return (
-    <Base pageContext={pageContext}>
-      <p className="text-center">404 Not Found.</p>
+    <Base className="text-center" pageContext={pageContext}>
+      <></>
     </Base>
   );
 };
