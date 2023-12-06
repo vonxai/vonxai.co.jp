@@ -2,7 +2,7 @@ import React from "react";
 
 export const Works = () => {
   return (
-    <dl className="flex flex-col my-8 text-2xl font-light lg:text-lg lg:my-2">
+    <dl className="flex flex-col my-8 text-2xl font-light lg:text-lg lg:my-2 auto-phrase">
       <div className="flex items-center border-solid border-gray-200 border-b py-4">
         <dt className="flex-1">開発支援</dt>
         <dd className="flex-2 ml-6 break-words">
