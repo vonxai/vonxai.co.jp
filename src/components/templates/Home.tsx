@@ -14,8 +14,8 @@ const Home = ({ pageContext }) => {
         <section>
           <Title />
           <section className="">
-            <div className="py-5 px-2 mx-auto max-w-4xl w-42rem text-white text-center">
-              <h2 className="text-4xl md:text-2xl font-bold">取引先企業</h2>
+            <div className="py-10 md:py-5 px-2 mx-auto max-w-4xl w-42rem text-white text-center">
+              <h2 className="text-4xl md:text-2xl font-bold">Our Clients</h2>
               <p className="my-3 text-xl md:text-md">
                 スタートアップから大企業まで、様々な企業様を支えています。
               </p>
