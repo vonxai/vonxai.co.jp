@@ -31,7 +31,7 @@ export const ContactForm = (props) => {
       </div>
       <div className="">
         <label className="block text-gray-700 text-lg font-bold mb-2">
-          問い合わせ内容
+          お問い合わせ内容
           <textarea
             name="message"
             id="message"
