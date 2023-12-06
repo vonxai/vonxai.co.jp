@@ -8,10 +8,10 @@ const Contact = ({ location, pageContext }) => {
     <Base pageContext={pageContext}>
       <div className="grid grid-cols-2 md:grid-cols-1 gap-8">
         <div>
-          <h2 className="mt-6 mb-4 text-2xl md:text-lg text-gray-500">
+          <h2 className="mt-6 mb-4 text-2xl md:text-lg text-gray-500 auto-phrase">
             どのようにコラボレーション出来るか探ってみましょう。
           </h2>
-          <ul className="list-inside p-5 text-xl md:text-lg bg-zinc-100 rounded-md list-image-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxNCAxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjMDAwMDAwIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy42ODUuMTUzYS43NTIuNzUyIDAgMCAxIC4xNDMgMS4wNTJsLTggMTAuNWEuNzUuNzUgMCAwIDEtMS4xMjcuMDc1bC00LjUtNC41YS43NS43NSAwIDAgMSAxLjA2LTEuMDZsMy44OTQgMy44OTMgNy40OC05LjgxN2EuNzUuNzUgMCAwIDEgMS4wNS0uMTQzWiIgLz48L3N2Zz4K')]">
+          <ul className="list-inside p-5 text-xl md:text-lg bg-zinc-100 rounded-md auto-phrase list-image-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxNCAxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjMDAwMDAwIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy42ODUuMTUzYS43NTIuNzUyIDAgMCAxIC4xNDMgMS4wNTJsLTggMTAuNWEuNzUuNzUgMCAwIDEtMS4xMjcuMDc1bC00LjUtNC41YS43NS43NSAwIDAgMSAxLjA2LTEuMDZsMy44OTQgMy44OTMgNy40OC05LjgxN2EuNzUuNzUgMCAwIDEgMS4wNS0uMTQzWiIgLz48L3N2Zz4K')]">
             <li className="p-2 before:mr-2">
               業務の自動化・効率化を検討したい
             </li>
@@ -38,7 +38,7 @@ const Contact = ({ location, pageContext }) => {
         <ContactForm location={location} />
       </div>
       <section className="mt-12">
-        <h3 className="text-2xl md:text-xl text-center">
+        <h3 className="text-2xl md:text-xl text-center auto-phrase">
           企業規模を問わず、様々な企業様にソリューションを提供。
         </h3>
         <CompanyList darkMode={false} />

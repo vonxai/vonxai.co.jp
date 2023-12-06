@@ -22,7 +22,11 @@ export const CompanyList = (props) => {
           title="株式会社KADOKAWA"
         />
       </li>
-      <li className="inline-flex flex-row flex-wrap w-36">
+      <li
+        className={`inline-flex flex-row flex-wrap w-36 ${
+          darkMode ? "" : "bg-gray-700"
+        }`}
+      >
         <img
           src={`/assets/images/companies/seeder.webp`}
           alt="SEEDER株式会社"

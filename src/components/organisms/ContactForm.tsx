@@ -54,7 +54,7 @@ export const ContactForm = (props) => {
           送信
         </button>
         {submitted ? (
-          <p className="inline-block align-baseline font-bold text-lg text-gray-700">
+          <p className="inline-block align-baseline font-bold text-lg text-gray-700 auto-phrase">
             お問い合わせありがとうございました。
           </p>
         ) : (
