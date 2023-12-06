@@ -23,7 +23,20 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
   });
 
   createPage({
-    path: `/company`,
+    path: `/404`,
+    component: path.resolve("./src/components/templates/404.tsx"),
+    context: {
+      site: {
+        siteMetadata: {
+          ...meta,
+          ...{ subtitle: "404 Not Found." },
+        },
+      },
+    },
+  });
+
+  createPage({
+    path: `/about`,
     component: path.resolve("./src/components/templates/Company.tsx"),
     context: {
       site: {
@@ -36,7 +49,7 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
   });
 
   createPage({
-    path: `/business`,
+    path: `/service`,
     component: path.resolve("./src/components/templates/Business.tsx"),
     context: {
       site: {
