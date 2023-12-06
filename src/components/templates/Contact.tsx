@@ -22,6 +22,9 @@ const Contact = ({ location, pageContext }) => {
               タスクを見える化して効率的に作業したい
             </li>
             <li className="p-2 before:mr-2">
+              コミュニケーションツール(Slack,Chatwork,Discord)の運用・管理を改善したい
+            </li>
+            <li className="p-2 before:mr-2">
               新規サービス開発をしたいけど何から始めて良いのか分からない
             </li>
             <li className="p-2 before:mr-2">
