@@ -1,2 +1,4 @@
-/company /about 301
-/business /service 301
+/company /about/ 301
+/company/ /about/ 301
+/business /service/ 301
+/business/ /service/ 301
