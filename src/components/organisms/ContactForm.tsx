@@ -14,7 +14,7 @@ export const ContactForm = (props) => {
             type="text"
             name="name"
             id="name"
-            placeholder="凡才 松"
+            placeholder="凡才 禅"
             required={true}
             className="appearance-none border rounded w-full py-2 px-3 text-gray-700 font-normal focus:outline-none focus:shadow-outline"
           />
