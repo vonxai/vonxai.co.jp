@@ -62,6 +62,19 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
   });
 
   createPage({
+    path: `/mission`,
+    component: path.resolve("./src/components/templates/Mission.tsx"),
+    context: {
+      site: {
+        siteMetadata: {
+          ...meta,
+          ...{ subtitle: "ミッション・バリュー" },
+        },
+      },
+    },
+  });
+
+  createPage({
     path: `/contact`,
     component: path.resolve("./src/components/templates/Contact.tsx"),
     context: {

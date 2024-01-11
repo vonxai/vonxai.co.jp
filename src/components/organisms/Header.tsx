@@ -2,6 +2,7 @@ import React from "react";
 import { BusinessButton } from "../atoms/BusinessButton";
 import { CompanyButton } from "../atoms/CompanyButton";
 import { ContactButton } from "../atoms/ContactButton";
+import { MissionButton } from "../atoms/MissionButton";
 
 export const Header = () => {
   return (
@@ -25,13 +26,18 @@ export const Header = () => {
           </a>
         </div>
         <div className="flex flex-1 justify-between md:justify-end ml-5">
-          <div className="flex gap-x-5 lg:gap-x-0 ml-2">
+          <div className="flex gap-x-5 lg:gap-x-2 ml-2">
             <CompanyButton
               className="text-base leading-6"
               darkMode={false}
               iconMode={true}
             />
             <BusinessButton
+              className="text-base leading-6"
+              darkMode={false}
+              iconMode={true}
+            />
+            <MissionButton
               className="text-base leading-6"
               darkMode={false}
               iconMode={true}
