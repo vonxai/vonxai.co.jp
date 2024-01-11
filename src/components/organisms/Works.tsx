@@ -2,16 +2,16 @@ import React from "react";
 
 export const Works = () => {
   return (
-    <dl className="flex flex-col my-8 text-2xl font-light lg:text-lg lg:my-2 auto-phrase">
-      <div className="flex items-center border-solid border-gray-200 border-b py-4">
-        <dt className="flex-1">開発支援</dt>
-        <dd className="flex-2 ml-6 break-words">
+    <dl className="flex flex-col my-8 text-2xl font-light md:text-lg md:my-2 auto-phrase">
+      <div className="flex items-center py-4">
+        <dt className="w-1/4 font-semibold">開発支援</dt>
+        <dd className="flex-1 ml-6 break-words">
           事業のIT化、DX(デジタルトランスフォーメーション)化、サービス開発の支援。
         </dd>
       </div>
-      <div className="flex items-center border-solid border-gray-200 border-b py-4">
-        <dt className="flex-1">技術支援</dt>
-        <dd className="flex-2 ml-6 break-words">
+      <div className="flex items-center py-4">
+        <dt className="w-1/4 font-semibold">技術支援</dt>
+        <dd className="flex-1 ml-6 break-words">
           サービスやアプリケーションのパフォーマンス改善やソフトウェア開発での課題の発見・解決に関するコンサルティング。
           <br />
           AWS や GCP を利用したクラウドネイティブなアーキテクチャ設計の支援。
@@ -19,22 +19,22 @@ export const Works = () => {
           WordPress や Shopify 、 EC-CUBE
           などでのオウンドメディア・オウンドマーケットの導入支援。
           <br />
-          個人情報管理やクレジットカードの非保持化におけるセキュリティコンサルティング等。
+          個人情報管理やクレジットカードの非保持化など、ビジネスクリティカルなセキュリティに対するコンサルティングや脆弱性診断の実施。
         </dd>
       </div>
-      <div className="flex items-center border-solid border-gray-200 border-b py-4">
-        <dt className="flex-1">ウェブサービス・VR開発事業</dt>
-        <dd className="flex-2  ml-6">ウェブサービス・VR関連の開発。</dd>
+      <div className="flex items-center py-4">
+        <dt className="w-1/4 font-semibold">ウェブサービス・VR開発事業</dt>
+        <dd className="flex-1 ml-6 ">ウェブサービス・VR関連の開発。</dd>
       </div>
-      <div className="flex items-center border-solid border-gray-200 border-b py-4">
-        <dt className="flex-1">動画・ライブ配信サポート事業</dt>
-        <dd className="flex-2 ml-6">
+      <div className="flex items-center py-4">
+        <dt className="w-1/4 font-semibold">動画・ライブ配信サポート事業</dt>
+        <dd className="flex-1 ml-6 ">
           各配信プラットフォームでの配信、実況、配信者のサポートやそれらに付随する業務。
         </dd>
       </div>
-      <div className="flex items-center border-solid border-gray-200 border-b py-4">
-        <dt className="flex-1">e-sports・ストリーマー支援事業</dt>
-        <dd className="flex-2 ml-6">
+      <div className="flex items-center py-4">
+        <dt className="w-1/4 font-semibold">e-sports・ストリーマー支援事業</dt>
+        <dd className="flex-1 ml-6 ">
           e-sports・ストリーマー文化の発展に関わる業務。
         </dd>
       </div>

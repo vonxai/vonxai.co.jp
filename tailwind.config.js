@@ -29,10 +29,14 @@ module.exports = {
         120: "120%",
       },
       flex: {
-        2: "2 1 0%",
+        1: "1",
+        3: "3 1 0%",
       },
       invert: {
         50: ".5",
+      },
+      padding: {
+        21: "5.5rem",
       },
       keyframes: {
         "fade-and-up": {
