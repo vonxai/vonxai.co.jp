@@ -27,12 +27,6 @@ export const Works = () => {
         <dd className="flex-1 ml-6 ">ウェブサービス・VR関連の開発。</dd>
       </div>
       <div className="flex items-center py-4">
-        <dt className="w-1/4 font-semibold">動画・ライブ配信サポート事業</dt>
-        <dd className="flex-1 ml-6 ">
-          各配信プラットフォームでの配信、実況、配信者のサポートやそれらに付随する業務。
-        </dd>
-      </div>
-      <div className="flex items-center py-4">
         <dt className="w-1/4 font-semibold">e-sports・ストリーマー支援事業</dt>
         <dd className="flex-1 ml-6 ">
           e-sports・ストリーマー文化の発展に関わる業務。
