@@ -32,12 +32,12 @@ export const Header = () => {
               darkMode={false}
               iconMode={true}
             />
-            <BusinessButton
+            <MissionButton
               className="text-base leading-6"
               darkMode={false}
               iconMode={true}
             />
-            <MissionButton
+            <BusinessButton
               className="text-base leading-6"
               darkMode={false}
               iconMode={true}
