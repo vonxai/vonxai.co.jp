@@ -7,11 +7,11 @@ const Mission = ({ pageContext }) => {
       <div className="py-10 md:py-0 auto-phrase">
         <h2
           id="ミッション"
-          className="text-6xl font-semibold md:text-4xl relative pb-7 pt-20 -mt-10 before:content-[''] before:block before:absolute before:left-0	before:bottom-0 before:w-full	before:h-px	before:bg-gray-200 after:content-[''] after:block after:absolute after:left-0	after:bottom-0 after:w-1/3	after:h-px	after:bg-gray-600"
+          className="text-6xl font-semibold md:text-4xl relative pb-7 pt-20 -mt-10 before:content-[''] before:block before:absolute before:left-0	before:bottom-0 before:w-full	before:h-px	before:bg-gray-200 after:content-[''] after:block after:absolute after:left-0	after:bottom-0 after:w-1/3	after:h-px	after:bg-gray-500"
         >
           <a
             href="#ミッション"
-            className="before:content-['#'] before:mr-3 before:md:mr-1 before:hover:text-gray-600"
+            className="before:content-['#'] before:mr-3 before:md:mr-1 before:hover:text-gray-500"
           >
             ミッション
           </a>
@@ -29,11 +29,11 @@ const Mission = ({ pageContext }) => {
         </p>
         <h2
           id="バリュー"
-          className="text-6xl font-semibold md:text-4xl relative pb-7 pt-20 -mt-10 before:content-[''] before:block before:absolute before:left-0	before:bottom-0 before:w-full	before:h-px	before:bg-gray-200 after:content-[''] after:block after:absolute after:left-0	after:bottom-0 after:w-1/3	after:h-px	after:bg-gray-600"
+          className="text-6xl font-semibold md:text-4xl relative pb-7 pt-20 -mt-10 before:content-[''] before:block before:absolute before:left-0	before:bottom-0 before:w-full	before:h-px	before:bg-gray-200 after:content-[''] after:block after:absolute after:left-0	after:bottom-0 after:w-1/3	after:h-px	after:bg-gray-500"
         >
           <a
             href="#バリュー"
-            className="before:content-['#'] before:mr-3 before:md:mr-1 before:hover:text-gray-600"
+            className="before:content-['#'] before:mr-3 before:md:mr-1 before:hover:text-gray-500"
           >
             バリュー
           </a>
@@ -47,7 +47,7 @@ const Mission = ({ pageContext }) => {
         >
           <a
             href="#只管打坐"
-            className="before:content-['##'] before:mr-3 before:md:mr-1 before:hover:text-gray-600"
+            className="before:content-['##'] before:mr-3 before:md:mr-1 before:hover:text-gray-500"
           >
             <ruby>
               只管打坐<rt>しかんたざ</rt>
@@ -78,7 +78,7 @@ const Mission = ({ pageContext }) => {
         >
           <a
             href="#修証一等"
-            className="before:content-['##'] before:mr-3 before:md:mr-1 before:hover:text-gray-600"
+            className="before:content-['##'] before:mr-3 before:md:mr-1 before:hover:text-gray-500"
           >
             <ruby>
               修証一等<rt>しゅしょういっとう</rt>
@@ -98,7 +98,7 @@ const Mission = ({ pageContext }) => {
         >
           <a
             href="#不立文字"
-            className="before:content-['##'] before:mr-3 before:md:mr-1 before:hover:text-gray-600"
+            className="before:content-['##'] before:mr-3 before:md:mr-1 before:hover:text-gray-500"
           >
             <ruby>
               不立文字<rt>ふりゅうもんじ</rt>
@@ -114,7 +114,7 @@ const Mission = ({ pageContext }) => {
         >
           <a
             href="#行雲流水"
-            className="before:content-['##'] before:mr-3 before:md:mr-1 before:hover:text-gray-600"
+            className="before:content-['##'] before:mr-3 before:md:mr-1 before:hover:text-gray-500"
           >
             <ruby>
               行雲流水<rt>こううんりゅうすい</rt>
@@ -130,7 +130,7 @@ const Mission = ({ pageContext }) => {
         >
           <a
             href="#脚下照顧"
-            className="before:content-['##'] before:mr-3 before:md:mr-1 before:hover:text-gray-600"
+            className="before:content-['##'] before:mr-3 before:md:mr-1 before:hover:text-gray-500"
           >
             <ruby>
               脚下照顧<rt>きゃっかしょうこ</rt>
