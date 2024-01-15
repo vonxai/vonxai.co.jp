@@ -1,37 +1,28 @@
 import React from "react";
+import { BlockWithHeader } from "../atoms/BlockWithHeader";
 
 export const Works = () => {
   return (
-    <dl className="flex flex-col my-8 text-2xl font-light md:text-lg md:my-2 auto-phrase">
-      <div className="flex items-center py-4">
-        <dt className="w-1/4 font-semibold">開発支援</dt>
-        <dd className="flex-1 ml-6 break-words">
-          事業のIT化、DX(デジタルトランスフォーメーション)化、サービス開発の支援。
-        </dd>
-      </div>
-      <div className="flex items-center py-4">
-        <dt className="w-1/4 font-semibold">技術支援</dt>
-        <dd className="flex-1 ml-6 break-words">
-          サービスやアプリケーションのパフォーマンス改善やソフトウェア開発での課題の発見・解決に関するコンサルティング。
-          <br />
-          AWS や GCP を利用したクラウドネイティブなアーキテクチャ設計の支援。
+    <>
+      <BlockWithHeader Tag="h2" title="技術支援">
+        <p className="text-xl my-5 break-words">
+          サービスやアプリケーションのパフォーマンス改善やソフトウェア開発での課題の発見・解決に関するコンサルティングを行います。また
+          Amazon Web Services や Google Cloud Platform
+          を利用したクラウドネイティブなアーキテクチャ設計のレビューや採用技術に関する課題の発見、費用最適化を支援します。
           <br />
           WordPress や Shopify 、 EC-CUBE
-          などでのオウンドメディア・オウンドマーケットの導入支援。
+          などを利用したオウンドメディア・オウンドマーケットの導入支援を行います。
           <br />
-          個人情報管理やクレジットカードの非保持化など、ビジネスクリティカルなセキュリティに対するコンサルティングや脆弱性診断の実施。
-        </dd>
-      </div>
-      <div className="flex items-center py-4">
-        <dt className="w-1/4 font-semibold">ウェブサービス・VR開発事業</dt>
-        <dd className="flex-1 ml-6 ">ウェブサービス・VR関連の開発。</dd>
-      </div>
-      <div className="flex items-center py-4">
-        <dt className="w-1/4 font-semibold">e-sports・ストリーマー支援事業</dt>
-        <dd className="flex-1 ml-6 ">
-          e-sports・ストリーマー文化の発展に関わる業務。
-        </dd>
-      </div>
-    </dl>
+          個人情報管理やパスワード管理など、ビジネスクリティカルなセキュリティに対するコンサルティングや脆弱性診断を実施します。
+        </p>
+      </BlockWithHeader>
+      <BlockWithHeader Tag="h2" title="エンジニア採用支援">
+        <p className="text-xl my-5 break-words">
+          エンジニア採用は難しい、希望している職種の応募がなかなか増えないといった声が多く、採用に課題を感じている企業様が多いです。弊社ではターゲット層の明確化やジョブディスクリプションレビューなどの支援、採用に向けた露出戦略等エンジニア視点での採用戦略を支援します。
+          <br />
+          また年間数十人の新卒採用・中途採用面接を担当してきた経験をもとに、実際の採用フロー設計やエンジニア採用における技術面接、支援を実施します。
+        </p>
+      </BlockWithHeader>
+    </>
   );
 };
