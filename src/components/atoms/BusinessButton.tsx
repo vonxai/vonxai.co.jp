@@ -14,7 +14,7 @@ export const BusinessButton = (props) => {
     >
       <GlobeAltIcon className="h-7 w-7 mx-1" />
       <p className={`text-xl whitespace-nowrap ${iconMode ? "md:hidden" : ""}`}>
-        SERVICE
+        Service
       </p>
     </a>
   );

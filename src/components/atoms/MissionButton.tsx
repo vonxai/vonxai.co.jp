@@ -14,7 +14,7 @@ export const MissionButton = (props) => {
     >
       <RocketLaunchIcon className="h-7 w-7 mx-1" />
       <p className={`text-xl whitespace-nowrap ${iconMode ? "md:hidden" : ""}`}>
-        MISSION
+        Mission
       </p>
     </a>
   );

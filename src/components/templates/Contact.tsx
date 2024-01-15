@@ -19,20 +19,15 @@ const Contact = ({ location, pageContext }) => {
               社内のノウハウや業務内容を一元管理したい
             </li>
             <li className="p-2 before:mr-2">
-              タスクを見える化して効率的に作業したい
-            </li>
-            <li className="p-2 before:mr-2">
               コミュニケーションツール(Slack,Chatwork,Discord)の運用・管理を改善したい
             </li>
             <li className="p-2 before:mr-2">
               新規サービス開発をしたいけど何から始めて良いのか分からない
             </li>
             <li className="p-2 before:mr-2">
-              開発リソースが不足しているけど事業を加速させたい
-            </li>
-            <li className="p-2 before:mr-2">
               Webサービスのセキュリティに不安がある
             </li>
+            <li className="p-2 before:mr-2">優秀なエンジニアを採用したい</li>
           </ul>
         </div>
         <ContactForm location={location} />

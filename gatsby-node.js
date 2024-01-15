@@ -36,7 +36,7 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
   });
 
   createPage({
-    path: `/about`,
+    path: `/company`,
     component: path.resolve("./src/components/templates/Company.tsx"),
     context: {
       site: {
