@@ -15,10 +15,6 @@ export const CompanyInformation = () => {
         </dd>
       </div>
       <div className="flex items-center py-4">
-        <dt className="flex-1 font-semibold">代表</dt>
-        <dd className="flex-3 ml-6">夏目 佳明</dd>
-      </div>
-      <div className="flex items-center py-4">
         <dt className="flex-1 font-semibold">設立</dt>
         <dd className="flex-3 ml-6">2022年07月18日</dd>
       </div>
