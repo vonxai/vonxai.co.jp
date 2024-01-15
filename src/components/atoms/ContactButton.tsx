@@ -15,7 +15,7 @@ export const ContactButton = (props) => {
     >
       <EnvelopeIcon className="h-7 w-7 mx-1" />
       <p className={`text-xl whitespace-nowrap ${iconMode ? "md:hidden" : ""}`}>
-        お問い合わせ
+        Contact
       </p>
     </a>
   );

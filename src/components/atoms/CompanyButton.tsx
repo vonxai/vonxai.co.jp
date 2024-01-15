@@ -9,13 +9,13 @@ export const CompanyButton = (props) => {
 
   return (
     <a
-      href="/about"
+      href="/company"
       className={`${className} ${color} inline-flex items-center`}
       title="企業情報"
     >
       <BuildingOfficeIcon className="h-7 w-7 mx-1" />
       <p className={`text-xl whitespace-nowrap ${iconMode ? "md:hidden" : ""}`}>
-        ABOUT
+        Company
       </p>
     </a>
   );
