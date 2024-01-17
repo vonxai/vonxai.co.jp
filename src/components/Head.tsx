@@ -25,12 +25,14 @@ export const Head = ({ location, params, data, pageContext }) => {
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
+      <link rel="apple-touch-icon" href={`/assets/images/logo.png`} />
+      <link rel="manifest" href={`/manifest.webmanifest`} />
       <link rel="preload" as="image" href={`/assets/images/logo.svg`} />
       <link
         rel="icon"
-        type="image/png"
+        type="image/svg+xml"
         href={`/assets/images/logo.svg`}
-        sizes="16x16"
+        sizes="any"
       />
     </>
   );
