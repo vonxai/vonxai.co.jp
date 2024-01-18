@@ -86,4 +86,17 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
       },
     },
   });
+
+  createPage({
+    path: `/security`,
+    component: path.resolve("./src/components/templates/Security.tsx"),
+    context: {
+      site: {
+        siteMetadata: {
+          ...meta,
+          ...{ subtitle: "情報セキュリティ基本方針" },
+        },
+      },
+    },
+  });
 };
