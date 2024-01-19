@@ -36,7 +36,10 @@ export const Works = () => {
           </li>
           <li className="pl-2">
             Amazon Web Services にて Lambda、DynamoDB、SQS
-            を利用した出荷処理の自動化
+            を利用したWMS(倉庫管理システム)とのつなぎ込み
+          </li>
+          <li className="pl-2">
+            SAP OData API から商品・売上ログの収集とBIツールでの集計
           </li>
           <li className="pl-2">
             EC-CUBE
