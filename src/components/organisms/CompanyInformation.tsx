@@ -25,7 +25,11 @@ export const CompanyInformation = () => {
       <div className="flex items-center py-4">
         <dt className="flex-1 font-semibold">所属団体</dt>
         <dd className="flex-3 ml-6">
-          <a href="https://www.saj.or.jp/" target="_blank">
+          <a
+            href="https://www.saj.or.jp/"
+            target="_blank"
+            className="hover:text-gray-500"
+          >
             一般社団法人ソフトウェア協会
           </a>
         </dd>
