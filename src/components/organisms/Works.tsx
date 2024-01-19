@@ -17,7 +17,7 @@ export const Works = () => {
         </p>
         <h3
           id="実績"
-          className="text-2xl font-semibold md:text-xl pt-21 -mt-20"
+          className="text-2xl font-semibold md:text-xl pt-16 -mt-14"
         >
           <a
             href="#実績"
@@ -54,7 +54,7 @@ export const Works = () => {
         </ul>
         <h3
           id="採用技術"
-          className="text-2xl font-semibold md:text-xl pt-21 -mt-20"
+          className="text-2xl font-semibold md:text-xl pt-16 -mt-14"
         >
           <a
             href="#採用技術"
@@ -78,12 +78,26 @@ export const Works = () => {
             express / hono / Next.js / Gatsby.js / Nuxt
           </li>
         </ul>
+        <p className="text-xl mb-5">
+          ご興味を持たれたらお気軽に
+          <a href="/contact" className="font-semibold mx-1 hover:text-gray-500">
+            お問い合せ
+          </a>
+          ください。
+        </p>
       </BlockWithHeader>
       <BlockWithHeader Tag="h2" title="エンジニア採用支援">
         <p className="text-xl my-5 break-words">
           エンジニア採用は難しい、希望している職種の応募がなかなか増えないといった声が多く、採用に課題を感じている企業様が多いです。弊社ではターゲット層の明確化やジョブディスクリプションレビューなどの支援、採用に向けた露出戦略等エンジニア視点での採用戦略を支援します。
           <br />
           また年間数十人の新卒採用・中途採用の技術面接を担当してきた経験をもとに、実際の採用フロー設計やエンジニア採用における技術面接、支援を実施します。
+        </p>
+        <p className="text-xl mb-5">
+          ご興味を持たれたらお気軽に
+          <a href="/contact" className="font-semibold mx-1 hover:text-gray-500">
+            お問い合せ
+          </a>
+          ください。
         </p>
       </BlockWithHeader>
     </>
