@@ -16,6 +16,39 @@ export const Works = () => {
           個人情報管理やパスワード管理など、ビジネスクリティカルなセキュリティに対するコンサルティングや脆弱性診断を実施します。
         </p>
         <h3
+          id="サービス"
+          className="text-2xl font-semibold md:text-xl pt-16 -mt-14"
+        >
+          <a
+            href="#サービス"
+            className="before:content-['##'] before:mr-3 before:md:mr-1 before:hover:text-gray-500"
+          >
+            サービス
+          </a>
+        </h3>
+        <div className="my-5">
+          <a href="https://ai.vonxai.co.jp/" target="_blank">
+            <div className="rounded overflow-hidden shadow-lg flex sm:flex-col">
+              <div
+                className="sm:h-32 sm:w-auto w-72 h-auto flex-none bg-cover bg-center rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+                style={{
+                  backgroundImage: `url('/assets/images/services/character-ai.webp')`,
+                }}
+                title="Woman holding a mug"
+              ></div>
+              <div className="px-6 py-4">
+                <h4 className="font-bold text-xl mb-2">キャラクターAI</h4>
+                <p className="text-gray-700 text-base">
+                  Live2Dや3DモデルとChatGPTなどのLLMを組み合わせて、オリジナルのキャラクターAIを開発します。
+                  <br />
+                  リンク先で実際に触ってみましょう。
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <h3
           id="実績"
           className="text-2xl font-semibold md:text-xl pt-16 -mt-14"
         >
