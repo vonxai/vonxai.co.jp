@@ -61,7 +61,7 @@ const Security = ({ pageContext }) => {
           <h4 className="font-bold text-xl mb-2">二つ星宣言</h4>
           <p className="text-gray-700 text-base">
             「SECURITY
-            ACTION」は中小企業自らが、情報セキュリティ対策に取組むことを自己宣言する制度です。
+            ACTION」は中小企業自らが、情報セキュリティ対策に取組むことを自己宣言する、IPAによって創設された制度です。
           </p>
         </div>
       </div>
