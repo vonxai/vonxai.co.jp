@@ -116,7 +116,10 @@ export const Works = () => {
         </ul>
         <p className="text-xl mb-5">
           ご興味を持たれたらお気軽に
-          <a href="/contact" className="font-semibold mx-1 hover:text-gray-500">
+          <a
+            href="/contact"
+            className="font-semibold mx-1 text-blue-600 hover:underline"
+          >
             お問い合せ
           </a>
           ください。
@@ -130,7 +133,10 @@ export const Works = () => {
         </p>
         <p className="text-xl mb-5">
           ご興味を持たれたらお気軽に
-          <a href="/contact" className="font-semibold mx-1 hover:text-gray-500">
+          <a
+            href="/contact"
+            className="font-semibold mx-1 text-blue-600 hover:underline"
+          >
             お問い合せ
           </a>
           ください。

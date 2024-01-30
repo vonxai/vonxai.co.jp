@@ -142,7 +142,7 @@ const Mission = ({ pageContext }) => {
           ボンサイではソフトウェアや組織のサプライチェーンにおけるSCMアセスメントを実施し、セキュリティ対策の強化を図ります。また、IPAやOWASPが発表しているガイドラインを元に自社や外部パートナーへの情報セキュリティ方針・対策基準を策定、運用していきます。
           <br />
           弊社で取り組んでいる
-          <a href="/security" className="mx-1 hover:text-gray-500">
+          <a href="/security" className="mx-1 text-blue-600 hover:underline">
             情報セキュリティ基本方針
           </a>
           もご参考下さい。
