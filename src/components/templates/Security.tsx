@@ -51,11 +51,8 @@ const Security = ({ pageContext }) => {
 
       <div className="rounded overflow-hidden shadow-lg flex sm:flex-col sm:my-10">
         <div
-          className="sm:h-32 sm:w-auto w-72 h-auto my-1 flex-none bg-contain bg-no-repeat bg-center rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-          style={{
-            backgroundImage: `url('/assets/images/security_action.webp')`,
-          }}
-          title="Woman holding a mug"
+          className="sm:h-32 sm:w-auto w-72 h-auto my-1 flex-none bg-contain bg-no-repeat bg-center rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-[url('/assets/images/security_action.webp')]"
+          title="SECURITY ACTION 二つ星宣言"
         ></div>
         <div className="px-6 py-4">
           <h4 className="font-bold text-xl mb-2">二つ星宣言</h4>
