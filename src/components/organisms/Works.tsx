@@ -30,11 +30,8 @@ export const Works = () => {
           <a href="https://ai.vonxai.co.jp/" target="_blank">
             <div className="rounded overflow-hidden shadow-lg flex sm:flex-col">
               <div
-                className="sm:h-32 sm:w-auto w-72 h-auto flex-none bg-cover bg-center rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-                style={{
-                  backgroundImage: `url('/assets/images/services/character-ai.webp')`,
-                }}
-                title="Woman holding a mug"
+                className="sm:h-32 sm:w-auto w-72 h-auto flex-none bg-cover bg-center rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-[url('/assets/images/services/character-ai.webp')]"
+                title="キャラクターAI by vonxai inc."
               ></div>
               <div className="px-6 py-4">
                 <h4 className="font-bold text-xl mb-2">キャラクターAI</h4>
