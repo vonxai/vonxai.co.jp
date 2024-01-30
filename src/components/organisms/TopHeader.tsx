@@ -2,7 +2,7 @@ import React from "react";
 
 export const TopHeader = () => {
   return (
-    <header className="h-75vh">
+    <div className="h-75vh">
       <style>
         {`
           .top-animation:nth-of-type(1) img {
@@ -39,6 +39,6 @@ export const TopHeader = () => {
           />
         </li>
       </ul>
-    </header>
+    </div>
   );
 };
