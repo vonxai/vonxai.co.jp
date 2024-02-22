@@ -122,7 +122,7 @@ export const Works = () => {
           ください。
         </p>
       </BlockWithHeader>
-      <BlockWithHeader Tag="h2" title="エンジニア採用支援">
+      <BlockWithHeader Tag="h2" title="Webエンジニア採用支援">
         <p className="text-xl my-5 break-words">
           エンジニア採用は難しい、希望している職種の応募がなかなか増えないといった声が多く、採用に課題を感じている企業様が多いです。弊社ではターゲット層の明確化やジョブディスクリプションレビューなどの支援、採用に向けた露出戦略等エンジニア視点での採用戦略を支援します。
           <br />
