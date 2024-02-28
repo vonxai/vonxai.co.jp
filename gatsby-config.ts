@@ -1,5 +1,9 @@
 import type { GatsbyConfig } from "gatsby";
 
+require("dotenv").config({
+  path: `.env`,
+});
+
 const siteMetadata = {
   title: "vonxai inc.",
   description: "vonxai inc.のコーポレートサイトです",

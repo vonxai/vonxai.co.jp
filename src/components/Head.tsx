@@ -11,6 +11,10 @@ export const Head = ({ location, params, data, pageContext }) => {
     url: `${siteUrl}${location.pathname}`,
   };
 
+  const requireCaptcha = () => {
+    return location.pathname.replace(/\/$/, "") === "/contact";
+  };
+
   return (
     <>
       <html lang="ja" />
@@ -34,6 +38,8 @@ export const Head = ({ location, params, data, pageContext }) => {
         href={`/assets/images/logo.svg`}
         sizes="any"
       />
+
+      {requireCaptcha() ? <></> : ""}
     </>
   );
 };

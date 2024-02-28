@@ -13,6 +13,9 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
     }
   `);
   const meta = site.data.site.siteMetadata;
+  const options = {
+    TURNSTILE_SITE_KEY: process.env.TURNSTILE_SITE_KEY,
+  };
 
   createPage({
     path: `/`,
@@ -81,6 +84,7 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
       site: {
         siteMetadata: {
           ...meta,
+          ...options,
           ...{ subtitle: "お問い合わせ" },
         },
       },
@@ -95,6 +99,19 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
         siteMetadata: {
           ...meta,
           ...{ subtitle: "情報セキュリティ基本方針" },
+        },
+      },
+    },
+  });
+
+  createPage({
+    path: `/privacy`,
+    component: path.resolve("./src/components/templates/Privacy.tsx"),
+    context: {
+      site: {
+        siteMetadata: {
+          ...meta,
+          ...{ subtitle: "プライバシーポリシー" },
         },
       },
     },

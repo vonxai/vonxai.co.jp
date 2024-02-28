@@ -30,7 +30,7 @@ const Contact = ({ location, pageContext }) => {
             <li className="p-2 before:mr-2">優秀なエンジニアを採用したい</li>
           </ul>
         </div>
-        <ContactForm location={location} />
+        <ContactForm location={location} pageContext={pageContext} />
       </div>
       <section className="mt-12">
         <h3 className="text-2xl md:text-xl text-center auto-phrase">
