@@ -2,13 +2,15 @@ import React from "react";
 
 export const ContactForm = (props) => {
   const { location, pageContext } = props;
-  console.log(props);
   const params = new URLSearchParams(location.search);
   const submitted = params.get("submit") === "true";
-  const error = params.get("error");
   const TurnstileSiteKey = pageContext.site.siteMetadata.TURNSTILE_SITE_KEY;
 
   const showErrors = () => {
+    const error = params.get("error");
+    if (!error) {
+      return "";
+    }
     switch (error) {
       case "turnstile":
         return "Botチェックに失敗しました。時間をおいて再度お試し下さい。";
