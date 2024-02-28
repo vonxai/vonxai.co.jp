@@ -99,4 +99,17 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
       },
     },
   });
+
+  createPage({
+    path: `/privacy`,
+    component: path.resolve("./src/components/templates/Privacy.tsx"),
+    context: {
+      site: {
+        siteMetadata: {
+          ...meta,
+          ...{ subtitle: "プライバシーポリシー" },
+        },
+      },
+    },
+  });
 };
