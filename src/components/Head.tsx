@@ -39,25 +39,7 @@ export const Head = ({ location, params, data, pageContext }) => {
         sizes="any"
       />
 
-      {requireCaptcha() ? (
-        <>
-          <script
-            src="https://challenges.cloudflare.com/turnstile/v0/api.js"
-            async
-            defer
-          />
-          <script>
-            {`
-              window.activateSubmitButton = function () {
-                const button = document.getElementById("submitButton");
-                button.disabled = false;
-              }
-            `}
-          </script>
-        </>
-      ) : (
-        ""
-      )}
+      {requireCaptcha() ? <></> : ""}
     </>
   );
 };

@@ -1,10 +1,21 @@
-import React from "react";
+import React, { Suspense, useEffect, useState } from "react";
 
 export const ContactForm = (props) => {
   const { location, pageContext } = props;
   const params = new URLSearchParams(location.search);
-  const submitted = params.get("submit") === "true";
   const TurnstileSiteKey = pageContext.site.siteMetadata.TURNSTILE_SITE_KEY;
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  useEffect(() => {
+    const isSubmitted = params.get("submit") === "true";
+    setIsSubmitted(isSubmitted);
+    if (isSubmitted) {
+      return;
+    }
+    const head = document.getElementsByTagName("head")[0] as HTMLElement;
+    const scriptUrl = document.createElement("script");
+    scriptUrl.src = "https://challenges.cloudflare.com/turnstile/v0/api.js";
+    head.appendChild(scriptUrl);
+  }, []);
 
   const showErrors = () => {
     const error = params.get("error");
@@ -19,6 +30,13 @@ export const ContactForm = (props) => {
         return "";
     }
   };
+
+  const callback = `
+  window.activateSubmitButton = function () {
+    const button = document.getElementById('submitButton');
+    button.disabled = false;
+  }
+`;
 
   return (
     <form method="POST">
@@ -60,18 +78,21 @@ export const ContactForm = (props) => {
             className="appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 font-normal focus:outline-none focus:shadow-outline"
           />
         </label>
-        {submitted ? (
+        {isSubmitted ? (
           <p className="inline-block align-baseline font-bold text-lg text-gray-700 auto-phrase">
             お問い合わせありがとうございました。
           </p>
         ) : (
-          <div
-            className="cf-turnstile min-h-22"
-            data-sitekey={TurnstileSiteKey}
-            data-theme="light"
-            data-language="ja"
-            data-callback="activateSubmitButton"
-          />
+          <>
+            <script dangerouslySetInnerHTML={{ __html: callback }}></script>
+            <div
+              className="cf-turnstile min-h-22"
+              data-sitekey={TurnstileSiteKey}
+              data-theme="light"
+              data-language="ja"
+              data-callback="activateSubmitButton"
+            />
+          </>
         )}
       </div>
       <div className="flex items-center gap-5 sm:gap-2 flex-col">
