@@ -1,11 +1,14 @@
-import React, { Suspense, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export const ContactForm = (props) => {
   const { location, pageContext } = props;
   const params = new URLSearchParams(location.search);
   const TurnstileSiteKey = pageContext.site.siteMetadata.TURNSTILE_SITE_KEY;
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [errorText, setErrorText] = useState("");
+
   useEffect(() => {
+    setErrorText(getParamErrorText());
     const isSubmitted = params.get("submit") === "true";
     setIsSubmitted(isSubmitted);
     if (isSubmitted) {
@@ -17,7 +20,7 @@ export const ContactForm = (props) => {
     head.appendChild(scriptUrl);
   }, []);
 
-  const showErrors = () => {
+  const getParamErrorText = () => {
     const error = params.get("error");
     if (!error) {
       return "";
@@ -96,7 +99,7 @@ export const ContactForm = (props) => {
         )}
       </div>
       <div className="flex items-center gap-5 sm:gap-2 flex-col">
-        <p className="text-red-700">{showErrors()}</p>
+        <p className="text-red-700">{errorText}</p>
         <button
           id="submitButton"
           type="submit"
