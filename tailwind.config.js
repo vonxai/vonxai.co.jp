@@ -28,6 +28,9 @@ module.exports = {
         "17rem": "1.7rem",
         120: "120%",
       },
+      minHeight: {
+        22: "5.5rem",
+      },
       flex: {
         1: "1",
         3: "3 1 0%",

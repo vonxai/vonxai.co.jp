@@ -13,6 +13,9 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
     }
   `);
   const meta = site.data.site.siteMetadata;
+  const options = {
+    TURNSTILE_SITE_KEY: process.env.TURNSTILE_SITE_KEY,
+  };
 
   createPage({
     path: `/`,
@@ -81,6 +84,7 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
       site: {
         siteMetadata: {
           ...meta,
+          ...options,
           ...{ subtitle: "お問い合わせ" },
         },
       },
