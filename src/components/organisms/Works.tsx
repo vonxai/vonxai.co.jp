@@ -27,7 +27,26 @@ export const Works = () => {
           </a>
         </h3>
         <div className="my-5">
-          <a href="https://ai.vonxai.co.jp/" target="_blank">
+          <a
+            href="https://backlog.vonxai.co.jp/"
+            target="_blank"
+            className="block mb-4"
+          >
+            <div className="rounded overflow-hidden shadow-lg flex sm:flex-col">
+              <div
+                className="sm:h-32 sm:w-auto w-72 h-auto flex-none bg-contain bg-no-repeat bg-center rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-[url('/assets/images/services/backlog-metrics.webp')]"
+                title="Backlogメトリクス"
+              ></div>
+              <div className="px-6 py-4">
+                <h4 className="font-bold text-xl mb-2">Backlogメトリクス</h4>
+                <p className="text-gray-700 text-base">
+                  プロジェクト管理ツールのBacklogに開発生産性を導入しチームの生産性を強化します。
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://ai.vonxai.co.jp/" target="_blank" className="block">
             <div className="rounded overflow-hidden shadow-lg flex sm:flex-col">
               <div
                 className="sm:h-32 sm:w-auto w-72 h-auto flex-none bg-cover bg-center rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-[url('/assets/images/services/character-ai.webp')]"
