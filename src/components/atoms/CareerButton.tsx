@@ -1,5 +1,5 @@
 import React from "react";
-import { UserIcon } from "@heroicons/react/24/outline";
+import { PersonSearchIcon } from "./PersonSearchIcon";
 
 export const CareerButton = (props) => {
   const { className, darkMode, iconMode } = props;
@@ -12,7 +12,7 @@ export const CareerButton = (props) => {
       className={`${className} ${color} inline-flex items-center`}
       title="キャリア"
     >
-      <UserIcon className="h-7 w-7 mx-1" />
+      <PersonSearchIcon className="h-7 w-7 mx-1" />
       <p className={`text-xl whitespace-nowrap ${iconMode ? "md:hidden" : ""}`}>
         Careers
       </p>

@@ -49,7 +49,7 @@ export const Header = () => {
               iconMode={true}
             />
           </div>
-          <div className="flex">
+          <div className="flex md:ml-2">
             <ContactButton
               className="text-base leading-6"
               darkMode={false}
