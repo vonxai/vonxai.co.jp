@@ -3,6 +3,7 @@ import { BusinessButton } from "../atoms/BusinessButton";
 import { CompanyButton } from "../atoms/CompanyButton";
 import { ContactButton } from "../atoms/ContactButton";
 import { MissionButton } from "../atoms/MissionButton";
+import { CareerButton } from "../atoms/CareerButton";
 
 export const Header = () => {
   return (
@@ -38,6 +39,11 @@ export const Header = () => {
               iconMode={true}
             />
             <BusinessButton
+              className="text-base leading-6"
+              darkMode={false}
+              iconMode={true}
+            />
+            <CareerButton
               className="text-base leading-6"
               darkMode={false}
               iconMode={true}
