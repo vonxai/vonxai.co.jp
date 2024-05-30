@@ -5,7 +5,7 @@ import { BlockWithHeader } from "../atoms/BlockWithHeader";
 const Mission = ({ pageContext }) => {
   return (
     <Base pageContext={pageContext}>
-      <div className="py-10 md:py-0 auto-phrase">
+      <div className="pb-10 md:py-0 auto-phrase">
         <BlockWithHeader Tag="h2" title="ミッション">
           <p className="text-xl mt-5">
             AI時代における情報技術はマンパワーを強化し、様々な格差を広げ、より多様な社会になると考えられます。複雑化する社会、組織、ソフトウェア、サービスと生きる現代。それらの余計なものを削ぎ落とし、本質と向き合う社会を目指していきます。
