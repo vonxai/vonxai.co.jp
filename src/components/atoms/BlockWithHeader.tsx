@@ -6,7 +6,8 @@ export const BlockWithHeader: React.FC<{
   ruby?: string;
   children: React.ReactNode;
 }> = ({ Tag, title, ruby = null, children }) => {
-  const heading = Tag === "h2" ? "#" : "##";
+  const headingContent =
+    Tag === "h2" ? "before:content-['#']" : "before:content-['##']";
   const fontSize =
     Tag === "h2" ? "text-4xl md:text-2xl" : "text-2xl md:text-xl";
   const border =
@@ -31,7 +32,7 @@ export const BlockWithHeader: React.FC<{
       >
         <a
           href={`#${title}`}
-          className={`before:content-['${heading}'] before:mr-3 before:md:mr-1 before:hover:text-gray-500`}
+          className={`${headingContent} before:mr-3 before:md:mr-1 before:hover:text-gray-500`}
         >
           {titleEl}
         </a>
