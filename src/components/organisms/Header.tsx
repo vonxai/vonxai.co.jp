@@ -3,6 +3,7 @@ import { BusinessButton } from "../atoms/BusinessButton";
 import { CompanyButton } from "../atoms/CompanyButton";
 import { ContactButton } from "../atoms/ContactButton";
 import { MissionButton } from "../atoms/MissionButton";
+import { CareerButton } from "../atoms/CareerButton";
 
 export const Header = () => {
   return (
@@ -43,7 +44,7 @@ export const Header = () => {
               iconMode={true}
             />
           </div>
-          <div className="flex">
+          <div className="flex md:ml-2">
             <ContactButton
               className="text-base leading-6"
               darkMode={false}

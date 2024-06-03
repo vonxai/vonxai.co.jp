@@ -39,7 +39,7 @@ module.exports = {
         50: ".5",
       },
       padding: {
-        21: "5.5rem",
+        18: "4.5rem",
       },
       keyframes: {
         "fade-and-up": {

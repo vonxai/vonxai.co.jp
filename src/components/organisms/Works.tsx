@@ -15,131 +15,107 @@ export const Works = () => {
           <br />
           個人情報管理やパスワード管理など、ビジネスクリティカルなセキュリティに対するコンサルティングや脆弱性診断を実施します。
         </p>
-        <h3
-          id="サービス"
-          className="text-2xl font-semibold md:text-xl pt-16 -mt-14"
-        >
-          <a
-            href="#サービス"
-            className="before:content-['##'] before:mr-3 before:md:mr-1 before:hover:text-gray-500"
-          >
-            サービス
-          </a>
-        </h3>
-        <div className="my-5">
-          <a
-            href="https://backlog.vonxai.co.jp/"
-            target="_blank"
-            className="block mb-4"
-          >
-            <div className="rounded overflow-hidden shadow-lg flex sm:flex-col">
-              <div
-                className="sm:h-32 sm:w-auto w-72 h-auto flex-none bg-cover bg-no-repeat bg-center rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-[url('/assets/images/services/backlog-metrics.webp')]"
-                title="Backlogメトリクス"
-              ></div>
-              <div className="px-6 py-4">
-                <h4 className="font-bold text-xl mb-2">Backlogメトリクス</h4>
-                <p className="text-gray-700 text-base">
-                  プロジェクト管理ツールのBacklogに開発生産性の指標を導入しチームの生産性強化のサポートをします。
-                </p>
+        <BlockWithHeader Tag="h3" title="サービス">
+          <div className="my-5">
+            <a
+              href="https://backlog.vonxai.co.jp/"
+              target="_blank"
+              className="block mb-4"
+            >
+              <div className="rounded overflow-hidden shadow-lg flex sm:flex-col">
+                <div
+                  className="sm:h-32 sm:w-auto w-72 h-auto flex-none bg-cover bg-no-repeat bg-center rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-[url('/assets/images/services/backlog-metrics.webp')]"
+                  title="Backlogメトリクス"
+                ></div>
+                <div className="px-6 py-4">
+                  <h4 className="font-bold text-xl mb-2">Backlogメトリクス</h4>
+                  <p className="text-gray-700 text-base">
+                    プロジェクト管理ツールのBacklogに開発生産性の指標を導入しチームの生産性強化のサポートをします。
+                  </p>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
 
-          <a href="https://ai.vonxai.co.jp/" target="_blank" className="block">
-            <div className="rounded overflow-hidden shadow-lg flex sm:flex-col">
-              <div
-                className="sm:h-32 sm:w-auto w-72 h-auto flex-none bg-cover bg-center rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-[url('/assets/images/services/character-ai.webp')]"
-                title="キャラクターAI by vonxai inc."
-              ></div>
-              <div className="px-6 py-4">
-                <h4 className="font-bold text-xl mb-2">キャラクターAI</h4>
-                <p className="text-gray-700 text-base">
-                  Live2Dや3DモデルとChatGPTなどのLLMを組み合わせて、オリジナルのキャラクターAIを開発します。
-                  <br />
-                  リンク先で実際に触ってみましょう。
-                </p>
+            <a
+              href="https://ai.vonxai.co.jp/"
+              target="_blank"
+              className="block"
+            >
+              <div className="rounded overflow-hidden shadow-lg flex sm:flex-col">
+                <div
+                  className="sm:h-32 sm:w-auto w-72 h-auto flex-none bg-cover bg-center rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-[url('/assets/images/services/character-ai.webp')]"
+                  title="キャラクターAI by vonxai inc."
+                ></div>
+                <div className="px-6 py-4">
+                  <h4 className="font-bold text-xl mb-2">キャラクターAI</h4>
+                  <p className="text-gray-700 text-base">
+                    Live2Dや3DモデルとChatGPTなどのLLMを組み合わせて、オリジナルのキャラクターAIを開発します。
+                    <br />
+                    リンク先で実際に触ってみましょう。
+                  </p>
+                </div>
               </div>
-            </div>
-          </a>
-        </div>
-
-        <h3
-          id="実績"
-          className="text-2xl font-semibold md:text-xl pt-16 -mt-14"
-        >
-          <a
-            href="#実績"
-            className="before:content-['##'] before:mr-3 before:md:mr-1 before:hover:text-gray-500"
-          >
-            実績
-          </a>
-        </h3>
-        <ul className="text-xl my-5 pl-3 list-['-']">
-          <li className="pl-2">
-            Google Cloud Platform にてショッピングサイトが乗っている Cloud Run
-            のレイテンシ改善
-          </li>
-          <li className="pl-2">
-            MySQL の InnoDB におけるトランザクション処理最適化
-          </li>
-          <li className="pl-2">
-            Amazon Web Services にて Lambda、DynamoDB、SQS
-            を利用したWMS(倉庫管理システム)とのつなぎ込み
-          </li>
-          <li className="pl-2">
-            SAP OData API から商品・売上ログの収集とBIツールでの集計
-          </li>
-          <li className="pl-2">
-            EC-CUBE
-            にて決済代行サービスとのクレジットカード・コンビニ決済つなぎ込み
-          </li>
-          <li className="pl-2">
-            EC-CUBE 公式プラグインのパフォーマンス改善・本体へのパッチ提供
-          </li>
-          <li className="pl-2">
-            WordPress にてクラウドソーシング向けプラグイン開発
-          </li>
-          <li className="pl-2">
-            国際的な博覧会向けサービスや大型ショッピングモールサイトの脆弱性診断・脆弱性対応
-          </li>
-        </ul>
-        <h3
-          id="採用技術"
-          className="text-2xl font-semibold md:text-xl pt-16 -mt-14"
-        >
-          <a
-            href="#採用技術"
-            className="before:content-['##'] before:mr-3 before:md:mr-1 before:hover:text-gray-500"
-          >
-            採用技術
-          </a>
-        </h3>
-        <ul className="text-xl my-5 pl-3 list-['-']">
-          <li className="pl-2">
-            Amazon Web Services / Google Cloud Platform / Fastly / Cloudflare
-          </li>
-          <li className="pl-2">
-            PHP / Ruby / Python / Node.js(TypeScript) / Golang / Rust
-          </li>
-          <li className="pl-2">
-            MySQL / DynamoDB / SQS / BigQuery / Firestore / Redis
-          </li>
-          <li className="pl-2">
-            Smarty / Laravel / Ruby on Rails / Padrino / Django / Flask /
-            express / hono / Next.js / Gatsby.js / Nuxt
-          </li>
-        </ul>
-        <p className="text-xl mb-5">
-          ご興味を持たれたらお気軽に
-          <a
-            href="/contact"
-            className="font-semibold mx-1 text-blue-600 hover:underline"
-          >
-            お問い合せ
-          </a>
-          ください。
-        </p>
+            </a>
+          </div>
+        </BlockWithHeader>
+        <BlockWithHeader Tag="h3" title="実績">
+          <ul className="text-xl pl-3 list-['-']">
+            <li className="pl-2">
+              Google Cloud Platform にてショッピングサイトが乗っている Cloud Run
+              のレイテンシ改善
+            </li>
+            <li className="pl-2">
+              MySQL の InnoDB におけるトランザクション処理最適化
+            </li>
+            <li className="pl-2">
+              Amazon Web Services にて Lambda、DynamoDB、SQS
+              を利用したWMS(倉庫管理システム)とのつなぎ込み
+            </li>
+            <li className="pl-2">
+              SAP OData API から商品・売上ログの収集とBIツールでの集計
+            </li>
+            <li className="pl-2">
+              EC-CUBE
+              にて決済代行サービスとのクレジットカード・コンビニ決済つなぎ込み
+            </li>
+            <li className="pl-2">
+              EC-CUBE 公式プラグインのパフォーマンス改善・本体へのパッチ提供
+            </li>
+            <li className="pl-2">
+              WordPress にてクラウドソーシング向けプラグイン開発
+            </li>
+            <li className="pl-2">
+              国際的な博覧会向けサービスや大型ショッピングモールサイトの脆弱性診断・脆弱性対応
+            </li>
+          </ul>
+        </BlockWithHeader>
+        <BlockWithHeader Tag="h3" title="採用技術">
+          <ul className="text-xl pl-3 list-['-']">
+            <li className="pl-2">
+              Amazon Web Services / Google Cloud Platform / Fastly / Cloudflare
+            </li>
+            <li className="pl-2">
+              PHP / Ruby / Python / Node.js(TypeScript) / Golang / Rust
+            </li>
+            <li className="pl-2">
+              MySQL / DynamoDB / SQS / BigQuery / Firestore / Redis
+            </li>
+            <li className="pl-2">
+              Smarty / Laravel / Ruby on Rails / Padrino / Django / Flask /
+              express / hono / Next.js / Gatsby.js / Nuxt
+            </li>
+          </ul>
+          <p className="text-xl mb-5">
+            ご興味を持たれたらお気軽に
+            <a
+              href="/contact"
+              className="font-semibold mx-1 text-blue-600 hover:underline"
+            >
+              お問い合せ
+            </a>
+            ください。
+          </p>
+        </BlockWithHeader>
       </BlockWithHeader>
       <BlockWithHeader Tag="h2" title="Webエンジニア採用支援">
         <p className="text-xl my-5 break-words">

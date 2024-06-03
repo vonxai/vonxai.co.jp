@@ -16,7 +16,7 @@ const Base = ({ pageContext, children, className = "" }) => {
         </h1>
         {children}
       </article>
-      <Footer className="py-5 text-center text-gray-500" />
+      <Footer className="pt-20 pb-5 text-center text-gray-500" />
     </main>
   );
 };

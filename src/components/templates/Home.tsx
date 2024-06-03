@@ -23,7 +23,7 @@ const Home = ({ pageContext }) => {
             </div>
           </section>
         </section>
-        <Footer className="bg-black max-h-60 pt-5 md:pt-2 text-center text-gray-300" />
+        <Footer className="bg-black max-h-60 pt-20 pb-5 text-center text-gray-300" />
       </div>
     </main>
   );

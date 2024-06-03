@@ -28,6 +28,7 @@ export const CompanyInformation = () => {
           <a
             href="https://www.saj.or.jp/"
             target="_blank"
+            rel="noopener"
             className="hover:text-gray-500"
           >
             一般社団法人ソフトウェア協会
