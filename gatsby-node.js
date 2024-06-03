@@ -78,6 +78,20 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
   });
 
   createPage({
+    path: `/careers`,
+    component: path.resolve("./src/components/templates/Careers.tsx"),
+    context: {
+      site: {
+        siteMetadata: {
+          ...meta,
+          ...options,
+          ...{ subtitle: "採用情報" },
+        },
+      },
+    },
+  });
+
+  createPage({
     path: `/contact`,
     component: path.resolve("./src/components/templates/Contact.tsx"),
     context: {
