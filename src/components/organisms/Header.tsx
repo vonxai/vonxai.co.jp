@@ -43,11 +43,6 @@ export const Header = () => {
               darkMode={false}
               iconMode={true}
             />
-            <CareerButton
-              className="text-base leading-6"
-              darkMode={false}
-              iconMode={true}
-            />
           </div>
           <div className="flex md:ml-2">
             <ContactButton
