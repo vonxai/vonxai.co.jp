@@ -6,7 +6,7 @@ export const Footer = (props) => {
   return (
     <footer {...props}>
       <div className="flex md:flex-col mb-2 md:mb-4">
-        <ul className="w-3/5 md:w-full">
+        <ul className="w-3/5 md:w-full flex items-center justify-around">
           <li>
             <a href="/privacy">プライバシーポリシー</a>
           </li>
