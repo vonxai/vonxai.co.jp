@@ -5,20 +5,24 @@ export const Works = () => {
   return (
     <>
       <BlockWithHeader Tag="h2" title="サービス">
-        <div className="my-5">
+        <div className="my-5 grid grid-cols-2 gap-4 md:grid-cols-1">
           <a
             href="https://backlog.vonxai.co.jp/"
             target="_blank"
             className="block mb-4"
           >
-            <div className="rounded overflow-hidden shadow-lg flex sm:flex-col">
-              <div
-                className="sm:h-32 sm:w-auto w-72 h-auto flex-none bg-cover bg-no-repeat bg-center rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-[url('/assets/images/services/backlog-metrics.webp')]"
-                title="Backlogメトリクス"
-              ></div>
-              <div className="px-6 py-4">
-                <h4 className="font-bold text-xl mb-2">Backlogメトリクス</h4>
-                <p className="text-gray-700 text-base">
+            <div className="rounded-xl shadow-2xl flex flex-col items-center hover:bg-gray-100">
+              <div className="h-72 overflow-hidden">
+                <img
+                  src="/assets/images/services/backlog-metrics.webp"
+                  title="Backlogメトリクス"
+                  alt="Backlogメトリクス"
+                />
+              </div>
+              <div className="w-full px-6 py-4">
+                <p className="text-gray-700 text-xl">開発生産性向上</p>
+                <h4 className="font-bold text-2xl mb-2">Backlogメトリクス</h4>
+                <p className="text-gray-700 text-xl">
                   プロジェクト管理ツールのBacklogに開発生産性の指標を導入するサービスです。
                   <br />
                   チームの生産性向上、開発効率の可視化、ボトルネック発見などを実現しましょう。
@@ -28,14 +32,18 @@ export const Works = () => {
           </a>
 
           <a href="https://ai.vonxai.co.jp/" target="_blank" className="block">
-            <div className="rounded overflow-hidden shadow-lg flex sm:flex-col">
-              <div
-                className="sm:h-32 sm:w-auto w-72 h-auto flex-none bg-cover bg-center rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden bg-[url('/assets/images/services/character-ai.webp')]"
-                title="キャラクターAI by vonxai inc."
-              ></div>
-              <div className="px-6 py-4">
-                <h4 className="font-bold text-xl mb-2">キャラクターAI</h4>
-                <p className="text-gray-700 text-base">
+            <div className="rounded-xl shadow-2xl flex flex-col items-center hover:bg-gray-100">
+              <div className="h-72 overflow-hidden">
+                <img
+                  src="/assets/images/services/character-ai.webp"
+                  title="キャラクターAI by vonxai inc."
+                  alt="キャラクターAI by vonxai inc."
+                />
+              </div>
+              <div className="w-full px-6 py-4">
+                <p className="text-gray-700 text-xl">AIチャットボット</p>
+                <h4 className="font-bold text-2xl mb-2">キャラクターAI</h4>
+                <p className="text-gray-700 text-xl">
                   Live2Dや3DモデルとChatGPTなどのLLMを組み合わせて、オリジナルのキャラクターAIを開発します。
                   <br />
                   リンク先で実際に触ってみましょう。
