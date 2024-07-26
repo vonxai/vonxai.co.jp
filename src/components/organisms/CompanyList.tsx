@@ -44,6 +44,17 @@ export const CompanyList = (props) => {
           title="株式会社アントレース"
         />
       </li>
+      <li
+        className={`inline-flex fflex-row flex-wrap w-36 ${
+          darkMode ? "bg-white" : ""
+        }`}
+      >
+        <img
+          src={`/assets/images/companies/estay.webp`}
+          alt="株式会社estay"
+          title="株式会社estay"
+        />
+      </li>
     </ul>
   );
 };
