@@ -53,6 +53,36 @@ export const Works = () => {
           </a>
         </div>
       </BlockWithHeader>
+      <BlockWithHeader Tag="h2" title="課題解決">
+        <p className="text-xl mt-5 break-words">
+          事業におけるあらゆる課題解決をサポートします。プロジェクト管理の課題を発見し、的確に解決することで、開発生産性や開発者体験を向上させます。定性調査を通じて問題点を明確化し、事業成果に直結するソリューションを提供します。以下はサポートの一例になります。
+        </p>
+        <ul className="text-xl pl-3 py-3 list-['-']">
+          <li className="pl-2">
+            <strong>プロジェクト管理の課題発見と解決：</strong>
+            プロジェクトが円滑に進むよう、潜在的な問題を洗い出し、最適な解決策を提案します。
+          </li>
+          <li className="pl-2">
+            <strong>開発生産性の向上：</strong>
+            開発プロセスを効率化し、チーム全体の生産性を最大化します。
+          </li>
+          <li className="pl-2">
+            <strong>開発者体験の改善：</strong>
+            開発者が働きやすい環境を整え、モチベーションを高めます。
+          </li>
+        </ul>
+        <p className="text-xl">
+          詳しくは、弊社の生産性や開発者体験の向上に関する
+          <a
+            href="https://blog.vonxai.co.jp/category/%E9%96%8B%E7%99%BA%E7%94%9F%E7%94%A3%E6%80%A7/1/"
+            className="font-semibold mx-1 text-blue-600 hover:underline"
+            target="_blank"
+          >
+            ブログ記事
+          </a>
+          をご参照ください。
+        </p>
+      </BlockWithHeader>
       <BlockWithHeader Tag="h2" title="技術支援">
         <p className="text-xl mt-5 break-words">
           サービスやアプリケーションのパフォーマンス改善やソフトウェア開発での課題の発見・解決に関するコンサルティングを行います。また
