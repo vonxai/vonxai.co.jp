@@ -55,6 +55,17 @@ export const CompanyList = (props) => {
           title="株式会社estay"
         />
       </li>
+      <li
+        className={`inline-flex fflex-row flex-wrap w-36 ${
+          darkMode ? "bg-white" : ""
+        }`}
+      >
+        <img
+          src={`/assets/images/companies/hamposaki.webp`}
+          alt="株式会社はんぽさき"
+          title="株式会社はんぽさき"
+        />
+      </li>
     </ul>
   );
 };
