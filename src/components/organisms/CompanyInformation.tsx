@@ -22,19 +22,6 @@ export const CompanyInformation = () => {
         <dt className="flex-1 font-semibold">資本金</dt>
         <dd className="flex-3 ml-6">1百万円</dd>
       </div>
-      <div className="flex items-center py-4">
-        <dt className="flex-1 font-semibold">所属団体</dt>
-        <dd className="flex-3 ml-6">
-          <a
-            href="https://www.saj.or.jp/"
-            target="_blank"
-            rel="noopener"
-            className="hover:text-gray-500"
-          >
-            一般社団法人ソフトウェア協会
-          </a>
-        </dd>
-      </div>
     </dl>
   );
 };
