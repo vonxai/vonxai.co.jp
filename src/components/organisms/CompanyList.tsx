@@ -51,8 +51,8 @@ export const CompanyList = (props) => {
       >
         <img
           src={`/assets/images/companies/estay.webp`}
-          alt="株式会社estay"
-          title="株式会社estay"
+          alt="株式会社ESTAY"
+          title="株式会社ESTAY"
         />
       </li>
       <li
