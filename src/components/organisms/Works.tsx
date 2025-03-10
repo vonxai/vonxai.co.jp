@@ -155,7 +155,7 @@ export const Works = () => {
             >
               お問い合せ
             </a>
-            いただき、課題解決を始めましょう。今なら無料相談実施中です。
+            いただき、課題解決を始めましょう。
           </p>
         </BlockWithHeader>
       </BlockWithHeader>
