@@ -1,38 +1,38 @@
 {
-    "name": "vonxai-inc",
-    "version": "1.1.0",
-    "private": true,
-    "description": "vonxai-inc",
-    "author": "vonxai inc.",
-    "keywords": [
-        "gatsby"
-    ],
-    "scripts": {
-        "develop": "gatsby clean && gatsby develop & wrangler pages dev --proxy 8000",
-        "start": "gatsby develop",
-        "build": "gatsby build",
-        "serve": "gatsby serve",
-        "clean": "gatsby clean",
-        "typecheck": "tsc --noEmit"
-    },
-    "dependencies": {
-        "@heroicons/react": "^2.0.18",
-        "gatsby": "^5.5.0",
-        "gatsby-plugin-google-tagmanager": "^5.12.3",
-        "gatsby-plugin-sitemap": "^6.12.3",
-        "gatsby-source-filesystem": "^5.12.1",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
-    },
-    "devDependencies": {
-        "@types/node": "^20.10.3",
-        "@types/react": "^18.2.42",
-        "@types/react-dom": "^18.2.17",
-        "autoprefixer": "^10.4.7",
-        "gatsby-plugin-postcss": "^6.12.0",
-        "postcss": "^8.4.32",
-        "tailwindcss": "^3.4.3",
-        "typescript": "^5.3.2",
-        "wrangler": "^3.19.0"
-    }
+  "name": "vonxai-inc",
+  "version": "1.1.0",
+  "private": true,
+  "description": "vonxai-inc",
+  "author": "vonxai inc.",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "dev": "gatsby clean && gatsby develop & wrangler pages dev --proxy 8000",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "gatsby": "^5.5.0",
+    "gatsby-plugin-google-tagmanager": "^5.12.3",
+    "gatsby-plugin-sitemap": "^6.12.3",
+    "gatsby-source-filesystem": "^5.12.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.3",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "autoprefixer": "^10.4.7",
+    "gatsby-plugin-postcss": "^6.12.0",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.3.2",
+    "wrangler": "^3.19.0"
+  }
 }
