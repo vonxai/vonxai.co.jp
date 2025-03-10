@@ -108,20 +108,26 @@ export const Works = () => {
               を利用したWMS(倉庫管理システム)とのつなぎ込み
             </li>
             <li className="pl-2">
-              SAP OData API から商品・売上ログの収集とBIツールでの集計
+              SAP OData API から商品・売上ログの収集とBIツール(Tableau)での集計
             </li>
             <li className="pl-2">
               EC-CUBE
-              にて決済代行サービスとのクレジットカード・コンビニ決済つなぎ込み
+              にて決済代行サービス(paygent)とのクレジットカード・コンビニ決済つなぎ込み
             </li>
             <li className="pl-2">
               EC-CUBE 公式プラグインのパフォーマンス改善・本体へのパッチ提供
             </li>
             <li className="pl-2">
-              WordPress にてクラウドソーシング向けプラグイン開発
+              WordPress にてクラウドソーシング向けプラグインの開発
             </li>
             <li className="pl-2">
               国際的な博覧会向けサービスや大型ショッピングモールサイトの脆弱性診断・脆弱性対応
+            </li>
+            <li className="pl-2">
+              AIスタートアップ向けにLLMやDifyの講義を実施
+            </li>
+            <li className="pl-2">
+              FirebaseとMapboxを利用したスタートアップのバックエンド、フロントエンドの開発支援。BigQueryとLookerを利用したKPIダッシュボードの提供。Webエンジニアの採用支援。
             </li>
           </ul>
         </BlockWithHeader>
