@@ -148,14 +148,14 @@ export const Works = () => {
             </li>
           </ul>
           <p className="text-xl my-5">
-            今すぐ
+            まずは
             <a
               href="/contact"
               className="font-semibold mx-1 text-blue-600 hover:underline"
             >
               お問い合せ
             </a>
-            いただき、課題解決を始めましょう。
+            から、貴社のお悩みをお聞かせ下さい。
           </p>
         </BlockWithHeader>
       </BlockWithHeader>
