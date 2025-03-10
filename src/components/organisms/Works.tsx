@@ -144,7 +144,7 @@ export const Works = () => {
             </li>
             <li className="pl-2">
               Smarty / Laravel / Ruby on Rails / Padrino / Django / Flask /
-              express / hono / Next.js / Gatsby.js / Nuxt
+              express / hono / Next.js / Gatsby.js / Nuxt / Angular
             </li>
           </ul>
           <p className="text-xl my-5">
