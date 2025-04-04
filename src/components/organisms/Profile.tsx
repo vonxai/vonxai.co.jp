@@ -9,8 +9,8 @@ export const Profile = () => {
         <p className="text-4xl md:text-2xl font-semibold">夏目 佳明</p>
         <img
           src={`/assets/images/profile-natsume.webp`}
-          alt="夏目 佳明"
-          title="夏目 佳明"
+          alt="夏目 佳明プロフィール画像"
+          title="夏目 佳明プロフィール画像"
           className="object-cover h-80 my-2 rounded-xl"
         />
         <p className="text-xl">
@@ -24,8 +24,8 @@ export const Profile = () => {
         <p className="text-4xl md:text-2xl font-semibold">小松 武弘</p>
         <img
           src={`/assets/images/profile-komatsu.webp`}
-          alt="小松 武弘"
-          title="小松 武弘"
+          alt="小松 武弘プロフィール画像"
+          title="小松 武弘プロフィール画像"
           className="object-cover h-80 my-2 rounded-xl"
         />
         <p className="text-xl">
