@@ -1,0 +1,4 @@
+Contact: https://www.vonxai.co.jp/contact/
+Contact: mailto:admin@vonxai.co.jp
+Hiring: https://www.vonxai.co.jp/careers/
+Expires: 2030-03-31T00:00:00.000Z
