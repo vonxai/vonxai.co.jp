@@ -14,10 +14,21 @@ export const Profile = () => {
           className="object-cover h-80 my-2 rounded-xl"
         />
         <p className="text-xl">
-          2011年より株式会社ドワンゴにてエンジニアとして10年勤務。スマホ向けプラットフォームの新規開発、iOSで位置情報を活用したアプリ開発、サーバーサイドでAPI開発、Unityを利用した2Dスマホゲームのテックリード、UI/UX改善プロジェクト、プロダクトマネージャーとしてECシステムの開発とスケールアウトのためのリアーキテクチャを経験。
-          <br />
-          2022年よりvonxai合同会社を設立し、技術顧問、システム全体のセキュリティや設計・開発・チームビルディング含め、開発に関わる包括的な支援を行う。
+          2011年より株式会社ドワンゴにてエンジニアとして10年勤務。スマホ向けプラットフォームの新規開発、iOSで位置情報を活用したアプリ開発、サーバーサイドでAPI開発、Unityを利用した2Dスマホゲームのテックリード、UI/UX改善プロジェクト、プロダクトマネージャーとしてECシステムの開発とスケールアウトのためのリアーキテクチャを経験。2022年よりvonxai合同会社を設立し、技術顧問、システム全体のセキュリティや設計・開発・チームビルディング含め、開発に関わる包括的な支援を行う。
         </p>
+        <p className="text-xl break-words mt-2">保有資格</p>
+        <ul className="text-xl pl-3 list-['-']">
+          <li className="pl-2">
+            <a
+              href="https://coursera.org/share/1e3c2a782c49faaa452893e413114e3c"
+              className="text-blue-600 hover:underline"
+              target="_blank"
+              rel="noopener"
+            >
+              Google Cybersecurity
+            </a>
+          </li>
+        </ul>
       </div>
 
       <div className="mt-10">
