@@ -95,44 +95,82 @@ export const Works = () => {
           個人情報管理やパスワード管理など、ビジネスクリティカルなセキュリティに対するコンサルティングや脆弱性診断を実施します。
         </p>
         <BlockWithHeader Tag="h3" title="実績">
-          <ul className="text-xl pl-3 list-['-']">
-            <li className="pl-2">
-              Google Cloud Platform にてショッピングサイトが乗っている Cloud Run
-              のレイテンシ改善
-            </li>
-            <li className="pl-2">
-              MySQL の InnoDB におけるトランザクション処理最適化
-            </li>
-            <li className="pl-2">
-              Amazon Web Services にて Lambda、DynamoDB、SQS
-              を利用したWMS(倉庫管理システム)とのつなぎ込み
-            </li>
-            <li className="pl-2">
-              SAP OData API から商品・売上ログの収集とBIツール(Tableau)での集計
-            </li>
-            <li className="pl-2">
-              EC-CUBE
-              にて決済代行サービス(paygent)とのクレジットカード・コンビニ決済つなぎ込み
-            </li>
-            <li className="pl-2">
-              EC-CUBE 公式プラグインのパフォーマンス改善・本体へのパッチ提供
-            </li>
-            <li className="pl-2">
-              WordPress にてクラウドソーシング向けプラグインの開発
-            </li>
-            <li className="pl-2">
-              大型ショッピングモールサイトの脆弱性診断・脆弱性対応
-            </li>
-            <li className="pl-2">
-              国際博覧会のシグネチャーパビリオン公式サイトにおける技術選定・セキュリティ評価・サービス構築運用
-            </li>
-            <li className="pl-2">
-              AIスタートアップ向けにLLMやDifyの講義を実施
-            </li>
-            <li className="pl-2">
-              FirebaseとMapboxを利用したスタートアップのバックエンド、フロントエンドの開発支援。BigQueryとLookerを利用したKPIダッシュボードの提供。Webエンジニアの採用支援。
-            </li>
-          </ul>
+          <section className="mb-2">
+            <p className="text-xl font-bold">2021年</p>
+            <ul className="text-xl pl-3 list-['-']">
+              <li className="pl-2">
+                Google Cloud Platform にてショッピングサイトが乗っている Cloud
+                Run のレイテンシ改善
+              </li>
+              <li className="pl-2">
+                MySQL の InnoDB におけるトランザクション処理最適化
+              </li>
+              <li className="pl-2">
+                Amazon Web Services にて Lambda、DynamoDB、SQS
+                を利用したWMS(倉庫管理システム)とのつなぎ込み
+              </li>
+            </ul>
+          </section>
+          <section className="mb-2">
+            <p className="text-xl font-bold">2022年</p>
+            <ul className="text-xl pl-3 list-['-']">
+              <li className="pl-2">
+                SAP OData API
+                から商品・売上ログの収集とBIツール(Tableau)での集計
+              </li>
+              <li className="pl-2">
+                EC-CUBE
+                にて決済代行サービス(paygent)とのクレジットカード・コンビニ決済つなぎ込み
+              </li>
+            </ul>
+          </section>
+          <section className="mb-2">
+            <p className="text-xl font-bold">2023年</p>
+            <ul className="text-xl pl-3 list-['-']">
+              <li className="pl-2">
+                EC-CUBE 公式プラグインのパフォーマンス改善・本体へのパッチ提供
+              </li>
+              <li className="pl-2">
+                WordPress にてクラウドソーシング向けプラグインの開発
+              </li>
+              <li className="pl-2">
+                大型ショッピングモールサイトの脆弱性診断・脆弱性対応
+              </li>
+              <li className="pl-2">
+                国際博覧会のシグネチャーパビリオン公式サイトにおける技術選定・セキュリティ評価・サービス構築運用
+              </li>
+            </ul>
+          </section>
+          <section className="mb-2">
+            <p className="text-xl font-bold">2024年</p>
+            <ul className="text-xl pl-3 list-['-']">
+              <li className="pl-2">
+                AIスタートアップ向けにLLMやDifyの講義を実施
+              </li>
+              <li className="pl-2">
+                FirebaseとMapboxを利用したスタートアップのバックエンド、フロントエンドの開発支援。BigQueryとLookerを利用したKPIダッシュボードの提供。Webエンジニアの採用支援。
+              </li>
+            </ul>
+          </section>
+          <section className="mb-2">
+            <p className="text-xl font-bold">2025年</p>
+            <ul className="text-xl pl-3 list-['-']">
+              <li className="pl-2">
+                <a
+                  href="https://expo2025-vision.smrj.go.jp/message/detail/?id=378232"
+                  className="text-blue-600 hover:underline"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  大阪・関西万博2025「未来航路 – 20XX年を⽬指す挑戦の旅」
+                </a>
+                参加企業に選出
+              </li>
+              <li className="pl-2">
+                GDALを利用したGISデータの変換、タイルセットサーバーの構築・運用
+              </li>
+            </ul>
+          </section>
         </BlockWithHeader>
         <BlockWithHeader Tag="h3" title="採用技術">
           <ul className="text-xl pl-3 list-['-']">
