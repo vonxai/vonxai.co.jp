@@ -86,7 +86,7 @@ export const Works = () => {
       <BlockWithHeader Tag="h2" title="技術支援">
         <p className="text-xl mt-5 break-words">
           サービスやアプリケーションのパフォーマンス改善やソフトウェア開発での課題の発見・解決に関するコンサルティングを行います。また
-          Amazon Web Services や Google Cloud Platform
+          Amazon Web Services や Google Cloud
           を利用したクラウドネイティブなアーキテクチャ設計のレビューや採用技術に関する課題の発見、コスト最適化を支援します。
           <br />
           WordPress や Shopify 、 EC-CUBE
@@ -99,8 +99,8 @@ export const Works = () => {
             <p className="text-xl font-bold">2021年</p>
             <ul className="text-xl pl-3 list-['-']">
               <li className="pl-2">
-                Google Cloud Platform にてショッピングサイトが乗っている Cloud
-                Run のレイテンシ改善
+                Google Cloud にてショッピングサイトが乗っている Cloud Run
+                のレイテンシ改善
               </li>
               <li className="pl-2">
                 MySQL の InnoDB におけるトランザクション処理最適化
@@ -175,7 +175,7 @@ export const Works = () => {
         <BlockWithHeader Tag="h3" title="採用技術">
           <ul className="text-xl pl-3 list-['-']">
             <li className="pl-2">
-              Amazon Web Services / Google Cloud Platform / Fastly / Cloudflare
+              Amazon Web Services / Google Cloud / Fastly / Cloudflare
             </li>
             <li className="pl-2">
               PHP / Ruby / Python / Node.js(TypeScript) / Golang / Rust
