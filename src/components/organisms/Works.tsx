@@ -68,7 +68,11 @@ export const Works = () => {
           </li>
           <li className="pl-2">
             <strong>開発者体験の改善：</strong>
-            開発者が働きやすい環境を整え、モチベーションを高めます。
+            開発者が働きやすい環境を整え、パフォーマンスやモチベーションの改善に取り組みます。
+          </li>
+          <li className="pl-2">
+            <strong>グリーンなITインフラの構築・運用支援：</strong>
+            カーボンニュートラル・脱炭素エネルギーの活用を前提としたシステム開発・運用を支援し、企業の環境目標達成を後押しします。
           </li>
         </ul>
         <p className="text-xl">
@@ -200,6 +204,21 @@ export const Works = () => {
           </p>
         </BlockWithHeader>
       </BlockWithHeader>
+      <a
+        href="https://www.thegreenwebfoundation.org/green-web-check/?url=https%3A%2F%2Fwww.vonxai.co.jp%2F"
+        className="block w-fit"
+        target="_blank"
+        rel="noopener"
+      >
+        <img
+          src="https://app.greenweb.org/api/v3/greencheckimage/www.vonxai.co.jp?nocache=true"
+          alt="This website runs on green hosting - verified by thegreenwebfoundation.org"
+          width="200"
+          height="95"
+          loading="lazy"
+          decoding="async"
+        />
+      </a>
     </>
   );
 };
