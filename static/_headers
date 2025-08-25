@@ -2,5 +2,5 @@
 /*
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
-  Content-Security-Policy: default-src 'self'; img-src 'self' data:; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline' https://tagmanager.google.com https://fonts.googleapis.com; connect-src 'self' https://www.google-analytics.com; frame-src 'self' mailto: https://challenges.cloudflare.com;
+  Content-Security-Policy: default-src 'self'; img-src 'self' data: https://app.greenweb.org; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://challenges.cloudflare.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://tagmanager.google.com https://fonts.googleapis.com; connect-src 'self' https://www.google-analytics.com; frame-src 'self' mailto: https://challenges.cloudflare.com;
 
